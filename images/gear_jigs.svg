@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 280" width="100%" height="auto" style="background:#0d1117; font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif; border-radius:8px;">
+  <text x="300" y="32" text-anchor="middle" fill="#f0f3f6" font-size="16" font-weight="700">JIGHEAD &amp; SOFT PLASTIC SHAD (JIGIPÄÄ JA JIGI)</text>
+  <text x="300" y="52" text-anchor="middle" fill="#8b949e" font-size="12">7–10g round lead/tungsten ball + 2.5"–3.5" paddle tail shad for perch &amp; zander</text>
+
+  <!-- Jighead eyelet & weight -->
+  <g transform="translate(100, 140)">
+    <circle cx="50" cy="-20" r="6" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+    <text x="50" y="-32" text-anchor="middle" fill="#38bdf8" font-size="11">Line Tie Eyelet</text>
+
+    <!-- Round Lead Head -->
+    <circle cx="50" cy="0" r="22" fill="#94a3b8" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="50" y="5" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">10g</text>
+
+    <!-- Hook shank through body -->
+    <path d="M 68,0 L 220,0 Q 250,-10 240,-45 Q 225,-60 210,-45" fill="none" stroke="#f87171" stroke-width="3.5"/>
+    <polygon points="208,-45 204,-35 214,-40" fill="#f87171"/>
+    <text x="235" y="-68" fill="#f87171" font-size="11" font-weight="600">Exposed Hook Point</text>
+
+    <!-- Silicone Shad Body -->
+    <path d="M 68,-14 Q 150,-18 260,-8 Q 310,-4 340,0 L 355,-15 L 360,15 L 340,4 Q 300,10 240,16 Q 140,24 68,14 Z" fill="#22c55e" opacity="0.85" stroke="#4ade80" stroke-width="2"/>
+    <circle cx="95" cy="-2" r="4" fill="#000"/>
+    <circle cx="94" cy="-3" r="1.5" fill="#fff"/>
+    <text x="280" y="45" fill="#4ade80" font-size="11">Paddle Tail (Vibrates on drop / T-尾摆动)</text>
+  </g>
+</svg>

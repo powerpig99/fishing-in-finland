@@ -10,27 +10,30 @@
 
 ## 🐟 Humane Dispatch Protocol: Pappaus &amp; Verestys Diagram
 
-        
+  
 Finnish animal welfare and fishing regulations mandate that any fish kept for the table must be dispatched immediately and humanely. Leaving fish to suffocate slowly on dry ground or in a bucket is prohibited.
 
-        
+  
 ![Humane Dispatch Protocol Diagram](../../images/humane_dispatch_diagram.svg)
 *Figure 6.1: The Two-Step Humane Dispatch Protocol: Step 1 (Pappaus): Sharp strike directly behind eyes using a priest club to instantly destroy consciousness. Step 2 (Verestys): Cut the gill arch membrane to bleed the fish completely in cold water for pristine white meat.*
 
-        
-> 🎬 **[🎬 Video Masterclass: Perch Filleting in Seconds &amp; Authentic Finnish Lohikeitto](https://www.youtube.com/watch?v=a7rJ5e_Q7fE)**
-> Watch a traditional Finnish fishmonger fillet perch with zero waste, followed by the step-by-step preparation of classic creamy salmon/trout soup with fresh allspice, butter, and dill.
-> [Watch on YouTube](https://www.youtube.com/watch?v=a7rJ5e_Q7fE)
+  
+> 🎬 **[🎬 Verified Video: Ahvenen Fileointi Ruodottomaksi (KalastusKanava)](https://www.youtube.com/watch?v=YrfpQjGJcY4)**
+> Expert Finnish filleting technique: skinning and de-boning perch into boneless, pristine fillets without scaling.
+> [Watch on YouTube](https://www.youtube.com/watch?v=YrfpQjGJcY4)
 
-        
+  
 
-        
-## 🍲 Traditional Recipes: Lohikeitto, Fried Perch &amp; Savukala
+  
+## 🍲 Authentic Finnish Creamy Salmon Soup (Lohikeitto)
 
-        
-          - **Lohikeitto**: Salmon, potatoes, leeks, allspice berries, fish broth, heavy cream, and generous fresh dill. Turn off heat when fish is added to gently poach in residual heat for 5 minutes.
-          - **Paistetut Ahvenfileet**: Fresh perch fillets lightly coated in fine rye flour (*ruisjauho*) and flash-fried in bubbling butter for 2 minutes per side until golden and crisp.
-          - **Savukala**: Alder-wood hot smoked perch or whitefish inside a stainless steel smoker box over cottage fire coals.
+  
+The crown jewel of Finnish home cooking. Rich, aromatic, comforting, and perfect with dark rye bread and salted butter.
+
+  
+> 🎬 **[🎬 Verified Video: Authentic Finnish Salmon Soup (Lohikeitto Recipe)](https://www.youtube.com/watch?v=B6r_L3sY-xg)**
+> Full authentic recipe: allspice berries, rich fish stock, leeks, potatoes, heavy cream, and gentle residual-heat fish poaching with fresh dill.
+> [Watch on YouTube](https://www.youtube.com/watch?v=B6r_L3sY-xg)
 
 ---
 
@@ -38,27 +41,30 @@ Finnish animal welfare and fishing regulations mandate that any fish kept for th
 
 ## 🐟 动物福利与合法处死：Pappaus 与 Verestys 两步法规范
 
-        
+  
 依据芬兰动物保护法与渔业法规，凡带回家的渔获必须立即人道处死与放血。严禁让鱼在干地或水桶中痛苦窒息挣扎。
 
-        
+  
 ![渔获人道处死与放血两步法规范图解](../../images/humane_dispatch_diagram.svg)
 *图 6.1：标准两步处死流程：第一步（Pappaus / 击晕）使用击鱼棒猛击双眼正后方头骨凸起破坏中枢神经；第二步（Verestys / 割鳃放血）挑断鳃弓动脉倒悬于冷水中彻底排尽淤血，肉质洁白无腥。*
 
-        
-> 🎬 **[🎬 实战料理视频精讲：芬兰老渔民数秒快速剥皮剔出无刺五道黑鱼排 &amp; 正宗 Lohikeitto 莳萝三文鱼浓汤制作](https://www.youtube.com/watch?v=a7rJ5e_Q7fE)**
-> 实景展示专业两刀剥皮剔骨绝技，以及经典三文鱼汤“余温慢浸焖鱼块”确保鱼肉嫩滑爆汁的秘诀。
-> [Watch on YouTube](https://www.youtube.com/watch?v=a7rJ5e_Q7fE)
+  
+> 🎬 **[🎬 官方正版视频教学：芬兰老渔民数秒快速剔出完全无肌间刺纯鱼排（KalastusKanava 出品）](https://www.youtube.com/watch?v=YrfpQjGJcY4)**
+> 免刮鱼鳞！两刀去皮剔下完整带皮/去皮五道黑鱼排，Y形肌间刺无损剔除法。
+> [Watch on YouTube](https://www.youtube.com/watch?v=YrfpQjGJcY4)
 
-        
+  
 
-        
-## 🍲 芬兰传世经典鱼肉料理全谱
+  
+## 🍲 芬兰国菜：正宗莳萝三文鱼/海鳟奶油浓汤（Lohikeitto）
 
-        
-          - **Lohikeitto（芬兰莳萝三文鱼浓汤）**：三文鱼块、小土豆、大葱白、整粒多香果、鲜鱼骨高汤、动物淡奶油与大量鲜莳萝。鱼肉入锅立即关火焖熟，极度丝滑。
-          - **Paistetut Ahvenfileet（黄油香煎脆皮五道黑）**：鱼排轻裹黑麦细粉（ruisjauho），放入大量融化黄油中大火快煎2分钟，外皮酥脆香脆，鱼肉鲜美如蒜瓣。
-          - **Savukala（桤木热熏鱼）**：粗盐腌制后放入桤木屑熏鱼箱，明火热熏25分钟，北欧夏日木屋的灵魂。
+  
+北欧寒夜最温暖的味觉图腾。香浓丝滑，搭配黑麦酸面包（Ruisleipä）与咸黄油是绝配。
+
+  
+> 🎬 **[🎬 官方正版视频教学：正宗芬兰 Lohikeitto 莳萝三文鱼浓汤制作全解](https://www.youtube.com/watch?v=B6r_L3sY-xg)**
+> 多香果粒炒香底料、新鲜鱼骨熬汤、动物淡奶油提香，以及关键技巧“余温慢焖鱼块”确保鱼肉嫩滑多汁。
+> [Watch on YouTube](https://www.youtube.com/watch?v=B6r_L3sY-xg)
 
 ---
 

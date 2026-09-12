@@ -70,7 +70,7 @@ The single-rod fisheries fee does not cover everything. You will need supplement
 
         
           - [**Eräluvat.fi (Metsähallitus)**](https://www.eraluvat.fi) — The official Finnish state portal to purchase your annual or day fisheries management fee and public state water licenses. Instant digital receipt.
-          - [**Kalastusrajoitus.fi**](https://www.kalastusrajoitus.fi) — Official government map system. Always check this map before fishing: it displays real-time boundaries of rapids, nature reserves, fishway protected zones, and seasonal bans in red and yellow overlays.
+          - [**Kalastusrajoitus.fi**](https://kalastusrajoitus.fi) — Official government map system. Always check this map before fishing: it displays real-time boundaries of rapids, nature reserves, fishway protected zones, and seasonal bans in red and yellow overlays.
 
 ---
 
@@ -138,7 +138,7 @@ The single-rod fisheries fee does not cover everything. You will need supplement
 
         
           - [**Eräluvat.fi（芬兰国家林业与森林公园管理局 Metsähallitus）**](https://www.eraluvat.fi) — 购买年度/短期国家渔业管理费及国有水域许可证的唯一官方平台，支付后立即生成带电子二维码的法定许可。
-          - [**Kalastusrajoitus.fi（芬兰农业与林业部官方限钓红线地图）**](https://www.kalastusrajoitus.fi) — 出钓前必须手机查看的地理信息系统，以红色与黄色色块实时标注全国所有禁钓激流、鱼道保全带与季节性繁殖保护区。
+          - [**Kalastusrajoitus.fi（芬兰农业与林业部官方限钓红线地图）**](https://kalastusrajoitus.fi) — 出钓前必须手机查看的地理信息系统，以红色与黄色色块实时标注全国所有禁钓激流、鱼道保全带与季节性繁殖保护区。
 
 ---
 
@@ -196,7 +196,7 @@ Erityislupa tarvitaan aina vaelluskalavesistöjen koskissa (esim. Vanhankaupungi
 
         
           - [**Eräluvat.fi**](https://www.eraluvat.fi) — Kalastonhoitomaksun ja valtion kalastuslupien virallinen verkkokauppa.
-          - [**Kalastusrajoitus.fi**](https://www.kalastusrajoitus.fi) — Maa- ja metsätalousministeriön karttapalvelu kielto- ja rajoitusalueista.
+          - [**Kalastusrajoitus.fi**](https://kalastusrajoitus.fi) — Maa- ja metsätalousministeriön karttapalvelu kielto- ja rajoitusalueista.
 
 ---
 

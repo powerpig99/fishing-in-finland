@@ -54,7 +54,7 @@ Then open [http://localhost:8000](http://localhost:8000) in your browser.
 ## 🏛️ Essential Official Portals in Finland
 
 - **[Eräluvat.fi (Metsähallitus)](https://www.eraluvat.fi/)** — Official store to pay your annual/short-term National Fisheries Management Fee (*Kalastonhoitomaksu*) and state water permits.
-- **[Kalastusrajoitus.fi](https://www.kalastusrajoitus.fi/)** — Official national restriction map showing protected rapids, conservation areas, and seasonal spawning bans.
+- **[Kalastusrajoitus.fi](https://kalastusrajoitus.fi/)** — Official national restriction map showing protected rapids, conservation areas, and seasonal spawning bans.
 - **[Suomen Vapaa-ajankalastajat (SVK)](https://vapaa-ajankalastaja.fi/)** — The Finnish Federation for Recreational Fishing: events, youth programs, and fishing clubs.
 - **[Riista- ja kalatalouden tutkimuslaitos (Luke)](https://www.luke.fi/)** — Natural Resources Institute Finland: fish stock monitoring, catch statistics, and research.
 
