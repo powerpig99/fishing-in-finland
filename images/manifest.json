@@ -1,0 +1,93 @@
+{
+  "ahven": {
+    "name": "European Perch (Ahven)",
+    "sci": "Perca fluviatilis",
+    "file": "images/ahven.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Perca_fluviatilis_-_Perche_commune_-_European_perch_%28cropped%29.jpg/960px-Perca_fluviatilis_-_Perche_commune_-_European_perch_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "pageimage": "Perca_fluviatilis_-_Perche_commune_-_European_perch_(cropped).jpg"
+  },
+  "kuha": {
+    "name": "Zander (Kuha)",
+    "sci": "Sander lucioperca",
+    "file": "images/kuha.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Sander_lucioperca_1.jpg/960px-Sander_lucioperca_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "pageimage": "Sander_lucioperca_1.jpg"
+  },
+  "hauki": {
+    "name": "Northern Pike (Hauki)",
+    "sci": "Esox lucius",
+    "file": "images/hauki.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Esox_lucius_ZOO_1.jpg/960px-Esox_lucius_ZOO_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "pageimage": "Esox_lucius_ZOO_1.jpg"
+  },
+  "taimen": {
+    "name": "Brown Trout (Taimen)",
+    "sci": "Salmo trutta",
+    "file": "images/taimen.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Brown_Trout_%28Salmo_trutta%29_%2853678765394%29.jpg/960px-Brown_Trout_%28Salmo_trutta%29_%2853678765394%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "pageimage": "Brown_Trout_(Salmo_trutta)_(53678765394).jpg"
+  },
+  "lohi": {
+    "name": "Atlantic Salmon (Lohi)",
+    "sci": "Salmo salar",
+    "file": "images/lohi.jpg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/8/82/Wst_atlantischer_lachs_stoer_001.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "pageimage": "Wst_atlantischer_lachs_stoer_001.jpg"
+  },
+  "silakka": {
+    "name": "Baltic Herring (Silakka)",
+    "sci": "Clupea harengus membras",
+    "file": "images/silakka.jpg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/0/04/Clupea_harengus.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "pageimage": "Clupea_harengus.png"
+  },
+  "made": {
+    "name": "Burbot (Made)",
+    "sci": "Lota lota",
+    "file": "images/made.jpg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/1/14/Tr%C3%BCsche_Walchensee.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "pageimage": "Tr\u00fcsche_Walchensee.jpg"
+  },
+  "kirjolohi": {
+    "name": "Rainbow Trout (Kirjolohi)",
+    "sci": "Oncorhynchus mykiss",
+    "file": "images/kirjolohi.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Close_up_of_rainbow_trout_fish_underwater_oncorhynchus_mykiss.jpg/960px-Close_up_of_rainbow_trout_fish_underwater_oncorhynchus_mykiss.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "pageimage": "Close_up_of_rainbow_trout_fish_underwater_oncorhynchus_mykiss.jpg"
+  },
+  "harjus": {
+    "name": "Grayling (Harjus)",
+    "sci": "Thymallus thymallus",
+    "file": "images/harjus.jpg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/9/96/Thymallus_thymallus_P%C3%A9nzes_p%C3%A9r.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "pageimage": "Thymallus_thymallus_P\u00e9nzes_p\u00e9r.jpg"
+  },
+  "lauttasaari": {
+    "name": "Lauttasaari bridge & shore",
+    "sci": "Helsinki Spot",
+    "file": "images/lauttasaari.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Lauttasaari.jpg/960px-Lauttasaari.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "pageimage": "Lauttasaari.jpg"
+  },
+  "seurasaari": {
+    "name": "Seurasaari island headland",
+    "sci": "Helsinki Spot",
+    "file": "images/seurasaari.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Seurasaari-2005-johannus2.jpg/960px-Seurasaari-2005-johannus2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "pageimage": "Seurasaari-2005-johannus2.jpg"
+  },
+  "ruoholahti": {
+    "name": "Ruoholahti canal",
+    "sci": "Helsinki Spot",
+    "file": "images/ruoholahti.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/L%C3%A4nsisatama_Ruoholahti_Helsinki_Finland_locator_map.svg/960px-L%C3%A4nsisatama_Ruoholahti_Helsinki_Finland_locator_map.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "pageimage": "L\u00e4nsisatama_Ruoholahti_Helsinki_Finland_locator_map.svg"
+  },
+  "uutela": {
+    "name": "Uutela coastal forest & rocks",
+    "sci": "Helsinki Spot",
+    "file": "images/uutela.jpg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Helsinki-districts-Uutela.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "pageimage": "Helsinki-districts-Uutela.png"
+  }
+}

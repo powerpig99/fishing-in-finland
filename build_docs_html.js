@@ -11,6 +11,18 @@ if (!fs.existsSync(docsDir)) {
 // Strip HTML tags for clean Markdown export
 function htmlToMarkdown(html) {
   let md = html;
+  // Replace media grid & cards with clean markdown image + descriptions
+  md = md.replace(/<div class="media-card">[\s\S]*?<img src="([^"]+)" alt="([^"]+)"[^>]*>[\s\S]*?<h3[^>]*>(.*?)<\/h3>[\s\S]*?<div class="media-card-subtitle">(.*?)<\/div>[\s\S]*?<div class="media-card-desc">(.*?)<\/div>[\s\S]*?<\/div>/g, 
+    '\n### $3\n![$2](../$1)\n*$4*\n\n$5\n'
+  );
+  // Replace figures
+  md = md.replace(/<figure class="media-figure">[\s\S]*?<img src="([^"]+)" alt="([^"]+)"[^>]*>[\s\S]*?<figcaption>(.*?)<\/figcaption>[\s\S]*?<\/figure>/g,
+    '\n![$2](../$1)\n*$3*\n'
+  );
+  // Replace video cards
+  md = md.replace(/<div class="video-card">[\s\S]*?<iframe src="([^"]+)"[^>]*>[\s\S]*?<div class="video-meta-title">(.*?)<\/div>[\s\S]*?<div>(.*?)<\/div>[\s\S]*?<a href="([^"]+)"[^>]*>.*?<\/a>[\s\S]*?<\/div>/g,
+    '\n> 🎬 **[$2]($4)**\n> $3\n> [Watch on YouTube]($4)\n'
+  );
   // Replace headings
   md = md.replace(/<h2>(.*?)<\/h2>/g, '\n## $1\n');
   md = md.replace(/<h3>(.*?)<\/h3>/g, '\n### $1\n');
@@ -31,12 +43,11 @@ function htmlToMarkdown(html) {
   md = md.replace(/<em>(.*?)<\/em>/g, '*$1*');
   // Replace links
   md = md.replace(/<a href="(.*?)"[^>]*>(.*?)<\/a>/g, '[$2]($1)');
-  // Strip remaining tags
+  // Tables
   md = md.replace(/<table[\s\S]*?<\/table>/g, (tableHtml) => {
-    // Basic table parser
     const rows = [];
     const rowMatches = tableHtml.match(/<tr>[\s\S]*?<\/tr>/g) || [];
-    rowMatches.forEach((row, rIdx) => {
+    rowMatches.forEach((row) => {
       const cells = [];
       const cellMatches = row.match(/<(?:th|td)[^>]*>([\s\S]*?)<\/(?:th|td)>/g) || [];
       cellMatches.forEach(c => {
@@ -65,6 +76,12 @@ CHAPTERS_DATA.forEach((ch, idx) => {
   const htmlFilename = `${ch.num}_${ch.slug}.html`;
   const mdFilename = `${ch.num}_${ch.slug}.md`;
 
+  // Fix image paths for subfolder docs/
+  const adjustPaths = (str) => str.replace(/src="images\//g, 'src="../images/');
+  const contentEn = adjustPaths(ch.content.en);
+  const contentZh = adjustPaths(ch.content.zh);
+  const contentFi = adjustPaths(ch.content.fi);
+
   // 1. Generate HTML file
   const htmlContent = `<!DOCTYPE html>
 <html lang="en">
@@ -73,7 +90,7 @@ CHAPTERS_DATA.forEach((ch, idx) => {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${ch.title.en} | Fishing in Finland</title>
   <meta name="description" content="${ch.subtitle.en}">
-  <link rel="stylesheet" href="../styles.css?v=20260912">
+  <link rel="stylesheet" href="../styles.css?v=20260912_2">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎣</text></svg>">
 </head>
 <body>
@@ -87,12 +104,21 @@ CHAPTERS_DATA.forEach((ch, idx) => {
       </a>
 
       <div class="top-controls">
-        <div class="lang-switcher" role="group" aria-label="Language Mode">
-          <button class="lang-btn active" data-mode="dual">Dual</button>
-          <button class="lang-btn" data-mode="en">English</button>
-          <button class="lang-btn" data-mode="zh">中文</button>
-          <button class="lang-btn" data-mode="fi">Suomi</button>
+        <div class="lang-switcher-wrapper" aria-label="Select Language">
+          <div class="lang-row primary-lang-row" aria-label="Primary Language">
+            <span class="lang-row-label">Main:</span>
+            <button class="lang-btn active" data-lang="en" title="English" aria-label="English">🇬🇧 EN</button>
+            <button class="lang-btn" data-lang="zh" title="中文" aria-label="中文">🇨🇳 中文</button>
+            <button class="lang-btn" data-lang="fi" title="Suomi" aria-label="Suomi">🇫🇮 FI</button>
+          </div>
+          <div class="lang-row secondary-lang-row" aria-label="Secondary Language (Optional)">
+            <span class="lang-row-label">Compare:</span>
+            <button class="lang-btn secondary-btn disabled-lang" data-lang2="en" title="Compare English" aria-label="Compare English">🇬🇧 EN</button>
+            <button class="lang-btn secondary-btn" data-lang2="zh" title="与中文对照" aria-label="与中文对照">🇨🇳 中文</button>
+            <button class="lang-btn secondary-btn" data-lang2="fi" title="Vertaa suomeksi" aria-label="Vertaa suomeksi">🇫🇮 FI</button>
+          </div>
         </div>
+
         <button id="theme-toggle-btn" class="theme-btn" title="Toggle Theme" aria-label="Toggle Theme">🌙</button>
       </div>
     </nav>
@@ -100,28 +126,13 @@ CHAPTERS_DATA.forEach((ch, idx) => {
     <!-- Chapter Header -->
     <header class="chapter-header">
       <span class="chapter-num">Chapter ${ch.num} • ${ch.icon} • ${ch.readTime}</span>
-      <h1 id="chapter-title" class="chapter-title">
-        <div>${ch.title.en}</div>
-        <div style="font-size: 0.78em; color: var(--muted); font-weight: 500; margin-top: 0.25rem;">${ch.title.zh}</div>
-      </h1>
-      <p id="chapter-subtitle" class="chapter-subtitle">
-        <div>${ch.subtitle.en}</div>
-        <div style="font-size: 0.9em; margin-top: 0.25rem;">${ch.subtitle.zh}</div>
-      </p>
+      <h1 id="chapter-title" class="chapter-title">${ch.title.en}</h1>
+      <p id="chapter-subtitle" class="chapter-subtitle">${ch.subtitle.en}</p>
     </header>
 
     <!-- Chapter Content Body -->
     <main id="chapter-body">
-      <div class="dual-container">
-        <div class="dual-lang-block">
-          <span class="dual-lang-label">🇬🇧 English</span>
-          <div class="content">${ch.content.en}</div>
-        </div>
-        <div class="dual-lang-block">
-          <span class="dual-lang-label">🇨🇳 中文</span>
-          <div class="content">${ch.content.zh}</div>
-        </div>
-      </div>
+      <div class="content">${contentEn}</div>
     </main>
 
     <!-- Prev / Next Navigation -->
@@ -148,15 +159,29 @@ CHAPTERS_DATA.forEach((ch, idx) => {
   <script>
     (function () {
       const chapter = ${JSON.stringify(ch)};
-      let currentMode = localStorage.getItem('fishing_lang_mode') || 'dual';
+      chapter.content.en = ${JSON.stringify(contentEn)};
+      chapter.content.zh = ${JSON.stringify(contentZh)};
+      chapter.content.fi = ${JSON.stringify(contentFi)};
+
+      let currentLang = localStorage.getItem('fishing_lang') || 'en';
+      let secondaryLang = localStorage.getItem('fishing_lang2') || null;
       let currentTheme = localStorage.getItem('fishing_theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+
+      if (secondaryLang === currentLang) secondaryLang = null;
 
       const htmlEl = document.documentElement;
       const titleEl = document.getElementById('chapter-title');
       const subEl = document.getElementById('chapter-subtitle');
       const bodyEl = document.getElementById('chapter-body');
-      const langBtns = document.querySelectorAll('.lang-btn');
+      const primaryBtns = document.querySelectorAll('.primary-lang-row .lang-btn, [data-lang]');
+      const secondaryBtns = document.querySelectorAll('.secondary-lang-row .lang-btn, [data-lang2]');
       const themeBtn = document.getElementById('theme-toggle-btn');
+
+      const LABELS = {
+        en: "🇬🇧 English",
+        zh: "🇨🇳 中文",
+        fi: "🇫🇮 Suomi"
+      };
 
       function initTheme() {
         htmlEl.setAttribute('data-theme', currentTheme);
@@ -170,34 +195,69 @@ CHAPTERS_DATA.forEach((ch, idx) => {
         if (themeBtn) themeBtn.innerHTML = currentTheme === 'dark' ? '☀️' : '🌙';
       }
 
-      function updateLanguage(mode) {
-        currentMode = mode;
-        localStorage.setItem('fishing_lang_mode', mode);
-
-        langBtns.forEach(btn => {
-          if (btn.dataset.mode === mode) btn.classList.add('active');
+      function render() {
+        primaryBtns.forEach(btn => {
+          if (btn.dataset.lang === currentLang) btn.classList.add('active');
           else btn.classList.remove('active');
         });
 
-        if (mode === 'dual') {
-          titleEl.innerHTML = '<div>' + chapter.title.en + '</div><div style="font-size: 0.78em; color: var(--muted); font-weight: 500; margin-top: 0.25rem;">' + chapter.title.zh + '</div>';
-          subEl.innerHTML = '<div>' + chapter.subtitle.en + '</div><div style="font-size: 0.9em; margin-top: 0.25rem;">' + chapter.subtitle.zh + '</div>';
-          bodyEl.innerHTML = '<div class="dual-container"><div class="dual-lang-block"><span class="dual-lang-label">🇬🇧 English</span><div class="content">' + chapter.content.en + '</div></div><div class="dual-lang-block"><span class="dual-lang-label">🇨🇳 中文</span><div class="content">' + chapter.content.zh + '</div></div></div>';
+        secondaryBtns.forEach(btn => {
+          const l2 = btn.dataset.lang2;
+          btn.classList.remove('active-secondary', 'disabled-lang');
+          if (l2 === currentLang) {
+            btn.classList.add('disabled-lang');
+          } else if (l2 === secondaryLang) {
+            btn.classList.add('active-secondary');
+          }
+        });
+
+        const t1 = chapter.title[currentLang] || chapter.title.en;
+        const sub1 = chapter.subtitle[currentLang] || chapter.subtitle.en;
+        const c1 = chapter.content[currentLang] || chapter.content.en;
+
+        if (secondaryLang) {
+          const t2 = chapter.title[secondaryLang] || chapter.title.en;
+          const sub2 = chapter.subtitle[secondaryLang] || chapter.subtitle.en;
+          const c2 = chapter.content[secondaryLang] || chapter.content.en;
+
+          titleEl.innerHTML = '<div>' + t1 + '</div><div style="font-size: 0.78em; color: var(--muted); font-weight: 500; margin-top: 0.25rem;">' + t2 + '</div>';
+          subEl.innerHTML = '<div>' + sub1 + '</div><div style="font-size: 0.9em; margin-top: 0.25rem;">' + sub2 + '</div>';
+          bodyEl.innerHTML = '<div class="dual-container"><div class="dual-lang-block"><span class="dual-lang-label">' + LABELS[currentLang] + ' (Primary)</span><div class="content">' + c1 + '</div></div><div class="dual-lang-block"><span class="dual-lang-label">' + LABELS[secondaryLang] + ' (Comparison)</span><div class="content">' + c2 + '</div></div></div>';
         } else {
-          titleEl.innerHTML = chapter.title[mode] || chapter.title.en;
-          subEl.innerHTML = chapter.subtitle[mode] || chapter.subtitle.en;
-          bodyEl.innerHTML = '<div class="content">' + (chapter.content[mode] || chapter.content.en) + '</div>';
+          titleEl.innerHTML = t1;
+          subEl.innerHTML = sub1;
+          bodyEl.innerHTML = '<div class="content">' + c1 + '</div>';
         }
       }
 
-      langBtns.forEach(btn => {
-        btn.addEventListener('click', () => updateLanguage(btn.dataset.mode));
-      });
+      function setPrimary(lang) {
+        currentLang = lang;
+        localStorage.setItem('fishing_lang', lang);
+        if (secondaryLang === lang) {
+          secondaryLang = null;
+          localStorage.removeItem('fishing_lang2');
+        }
+        render();
+      }
 
+      function toggleSecondary(candidate) {
+        if (candidate === currentLang) return;
+        if (secondaryLang === candidate) {
+          secondaryLang = null;
+          localStorage.removeItem('fishing_lang2');
+        } else {
+          secondaryLang = candidate;
+          localStorage.setItem('fishing_lang2', candidate);
+        }
+        render();
+      }
+
+      primaryBtns.forEach(btn => btn.addEventListener('click', () => setPrimary(btn.dataset.lang)));
+      secondaryBtns.forEach(btn => btn.addEventListener('click', () => toggleSecondary(btn.dataset.lang2)));
       if (themeBtn) themeBtn.addEventListener('click', toggleTheme);
 
       initTheme();
-      updateLanguage(currentMode);
+      render();
     })();
   </script>
 </body>
@@ -217,19 +277,19 @@ CHAPTERS_DATA.forEach((ch, idx) => {
 
 ## English Version
 
-${htmlToMarkdown(ch.content.en)}
+${htmlToMarkdown(contentEn)}
 
 ---
 
 ## 中文版 (Chinese Version)
 
-${htmlToMarkdown(ch.content.zh)}
+${htmlToMarkdown(contentZh)}
 
 ---
 
 ## Suomeksi (Finnish Version)
 
-${htmlToMarkdown(ch.content.fi)}
+${htmlToMarkdown(contentFi)}
 
 ---
 
@@ -241,4 +301,4 @@ ${htmlToMarkdown(ch.content.fi)}
   fs.writeFileSync(path.join(docsDir, mdFilename), mdContent, 'utf8');
 });
 
-console.log(`Generated ${CHAPTERS_DATA.length} HTML documents and ${CHAPTERS_DATA.length} Markdown documents in docs/`);
+console.log(`Successfully compiled ${CHAPTERS_DATA.length} HTML docs and ${CHAPTERS_DATA.length} Markdown docs with rich media.`);

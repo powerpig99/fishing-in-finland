@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fishing in Finland • 芬兰垂钓与路亚全景指南 • Kalastus Suomessa</title>
   <meta name="description" content="An authoritative, trilingual field companion to angling, lure fishing, Everyman's rights, regulations, Helsinki transit spots, gear, and recipes in Finland.">
-  <link rel="stylesheet" href="styles.css?v=20260912">
+  <link rel="stylesheet" href="styles.css?v=20260912_2">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎣</text></svg>">
 </head>
 <body>
@@ -19,12 +19,20 @@
       </a>
 
       <div class="top-controls">
-        <!-- Language Switcher -->
-        <div class="lang-switcher" role="group" aria-label="Language Mode">
-          <button class="lang-btn active" data-mode="dual">Dual</button>
-          <button class="lang-btn" data-mode="en">English</button>
-          <button class="lang-btn" data-mode="zh">中文</button>
-          <button class="lang-btn" data-mode="fi">Suomi</button>
+        <!-- Language Switcher: Primary & Optional Comparison (Mushroom Guide Model) -->
+        <div class="lang-switcher-wrapper" aria-label="Select Language">
+          <div class="lang-row primary-lang-row" aria-label="Primary Language">
+            <span class="lang-row-label">Main:</span>
+            <button class="lang-btn active" data-lang="en" title="English" aria-label="English">🇬🇧 EN</button>
+            <button class="lang-btn" data-lang="zh" title="中文" aria-label="中文">🇨🇳 中文</button>
+            <button class="lang-btn" data-lang="fi" title="Suomi" aria-label="Suomi">🇫🇮 FI</button>
+          </div>
+          <div class="lang-row secondary-lang-row" aria-label="Secondary Language (Optional)">
+            <span class="lang-row-label">Compare:</span>
+            <button class="lang-btn secondary-btn disabled-lang" data-lang2="en" title="Compare English" aria-label="Compare English">🇬🇧 EN</button>
+            <button class="lang-btn secondary-btn" data-lang2="zh" title="与中文对照" aria-label="与中文对照">🇨🇳 中文</button>
+            <button class="lang-btn secondary-btn" data-lang2="fi" title="Vertaa suomeksi" aria-label="Vertaa suomeksi">🇫🇮 FI</button>
+          </div>
         </div>
 
         <!-- Theme Toggle -->
@@ -35,8 +43,7 @@
     <!-- Site Header -->
     <header class="site-header">
       <h1 id="site-title" class="site-title">
-        Fishing in Finland: Complete Beginner & Resident Field Guide<br>
-        <span style="font-size: 0.82em; font-weight: normal; color: var(--muted);">芬兰垂钓与路亚全景指南 • Kalastus Suomessa</span>
+        Fishing in Finland: Complete Beginner & Resident Field Guide
       </h1>
       <p id="site-subtitle" class="site-subtitle">
         An authoritative, trilingual field companion covering Finnish fishing laws, Everyman's rights, the National Fisheries Management Fee (Kalastonhoitomaksu), seasonal techniques, Helsinki public-transit spots, and traditional Nordic culinary recipes.
@@ -52,7 +59,7 @@
     <!-- Table of Contents & Realtime Filter -->
     <section class="toc-section" aria-label="Table of Contents">
       <div class="toc-header">
-        <h2 id="toc-title" class="toc-title">Table of Contents / 目录导航</h2>
+        <h2 id="toc-title" class="toc-title">Guide Chapters</h2>
       </div>
 
       <div class="search-wrapper">
@@ -85,7 +92,7 @@
     </footer>
   </div>
 
-  <script src="chapters.js?v=20260912"></script>
-  <script src="app.js?v=20260912"></script>
+  <script src="chapters.js?v=20260912_2"></script>
+  <script src="app.js?v=20260912_2"></script>
 </body>
 </html>

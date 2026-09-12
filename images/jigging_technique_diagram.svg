@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="100%" height="auto" style="background:#0d1117; font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; border-radius: 8px;">
+  <style>
+    .title { fill: #f0f3f6; font-size: 16px; font-weight: 700; }
+    .sub { fill: #8b949e; font-size: 12px; }
+    .step-num { fill: #38bdf8; font-weight: 700; font-size: 14px; }
+    .step-text { fill: #e2e8f0; font-size: 12px; }
+  </style>
+  <text x="400" y="28" text-anchor="middle" class="title">BOTTOM JIGGING TRAJECTORY (POHJAJIGAUS) • 软虫跳底作钓轨迹</text>
+  <text x="400" y="48" text-anchor="middle" class="sub">How to entice strikes from Finnish Perch and Zander: 90% of bites happen during the gliding fall</text>
+
+  <!-- Water Surface & Seabed -->
+  <line x1="40" y1="75" x2="760" y2="75" stroke="#38bdf8" stroke-dasharray="4,4" stroke-width="1.5"/>
+  <text x="50" y="92" style="fill:#38bdf8; font-size:11px;">Water Surface / 水面</text>
+  
+  <path d="M 40,260 Q 200,265 400,255 Q 600,268 760,258 L 760,300 L 40,300 Z" fill="#1e293b"/>
+  <line x1="40" y1="260" x2="760" y2="258" stroke="#64748b" stroke-width="3"/>
+  <text x="50" y="285" style="fill:#94a3b8; font-size:12px;">Lake / Sea Bed (Pohja / 水底岩石泥沙)</text>
+
+  <!-- Trajectory Path -->
+  <!-- 1: Cast and touch bottom -->
+  <circle cx="120" cy="255" r="8" fill="#eab308"/>
+  <text x="120" y="235" text-anchor="middle" class="step-num">1</text>
+  <text x="120" y="215" text-anchor="middle" class="step-text">Cast &amp; Hit Bottom</text>
+  <text x="120" y="198" text-anchor="middle" class="sub">Line goes slack</text>
+
+  <!-- Hop 1 -->
+  <path d="M 120,255 Q 190,140 260,170" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+  <text x="190" y="140" text-anchor="middle" class="step-num">2</text>
+  <text x="190" y="122" text-anchor="middle" class="step-text">2 Quick Reel Turns</text>
+  <text x="190" y="105" text-anchor="middle" class="sub">Jig hops 0.5-1m up</text>
+
+  <!-- Fall 1: Strike Zone -->
+  <path d="M 260,170 Q 320,210 380,255" fill="none" stroke="#ef4444" stroke-width="3" stroke-dasharray="4,4"/>
+  <circle cx="380" cy="255" r="8" fill="#eab308"/>
+  <rect x="260" y="180" width="120" height="35" rx="4" fill="rgba(239,68,68,0.2)" stroke="#ef4444"/>
+  <text x="320" y="195" text-anchor="middle" style="fill:#f87171; font-weight:700; font-size:11px;">⚡ STRIKE ZONE! (咬口)</text>
+  <text x="320" y="209" text-anchor="middle" style="fill:#fecaca; font-size:10px;">Glide on tight line</text>
+
+  <!-- Hop 2 -->
+  <path d="M 380,255 Q 450,140 520,170" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+  <text x="450" y="140" text-anchor="middle" class="step-num">3</text>
+  <text x="450" y="122" text-anchor="middle" class="step-text">Pause 1-2 sec</text>
+  <text x="450" y="105" text-anchor="middle" class="sub">Re-hop off bottom</text>
+
+  <!-- Fall 2: Strike Zone -->
+  <path d="M 520,170 Q 580,210 640,255" fill="none" stroke="#ef4444" stroke-width="3" stroke-dasharray="4,4"/>
+  <circle cx="640" cy="255" r="8" fill="#eab308"/>
+  <rect x="520" y="180" width="120" height="35" rx="4" fill="rgba(239,68,68,0.2)" stroke="#ef4444"/>
+  <text x="580" y="195" text-anchor="middle" style="fill:#f87171; font-weight:700; font-size:11px;">⚡ STRIKE ZONE! (咬口)</text>
+  <text x="580" y="209" text-anchor="middle" style="fill:#fecaca; font-size:10px;">Perch &amp; Zander inhale</text>
+</svg>
