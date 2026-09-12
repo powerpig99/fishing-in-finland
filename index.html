@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fishing in Finland • 芬兰垂钓与路亚全景指南 • Kalastus Suomessa</title>
+  <meta name="description" content="An authoritative, trilingual field companion to angling, lure fishing, Everyman's rights, regulations, Helsinki transit spots, gear, and recipes in Finland.">
+  <link rel="stylesheet" href="styles.css?v=20260912">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎣</text></svg>">
+</head>
+<body>
+
+  <div class="wrap">
+    <!-- Top Navigation & Controls -->
+    <nav class="top-nav" aria-label="Site Navigation">
+      <a href="index.html" class="brand-badge">
+        <span>🎣</span>
+        <span>Fishing in Finland</span>
+      </a>
+
+      <div class="top-controls">
+        <!-- Language Switcher -->
+        <div class="lang-switcher" role="group" aria-label="Language Mode">
+          <button class="lang-btn active" data-mode="dual">Dual</button>
+          <button class="lang-btn" data-mode="en">English</button>
+          <button class="lang-btn" data-mode="zh">中文</button>
+          <button class="lang-btn" data-mode="fi">Suomi</button>
+        </div>
+
+        <!-- Theme Toggle -->
+        <button id="theme-toggle-btn" class="theme-btn" title="Toggle Theme" aria-label="Toggle Theme">🌙</button>
+      </div>
+    </nav>
+
+    <!-- Site Header -->
+    <header class="site-header">
+      <h1 id="site-title" class="site-title">
+        Fishing in Finland: Complete Beginner & Resident Field Guide<br>
+        <span style="font-size: 0.82em; font-weight: normal; color: var(--muted);">芬兰垂钓与路亚全景指南 • Kalastus Suomessa</span>
+      </h1>
+      <p id="site-subtitle" class="site-subtitle">
+        An authoritative, trilingual field companion covering Finnish fishing laws, Everyman's rights, the National Fisheries Management Fee (Kalastonhoitomaksu), seasonal techniques, Helsinki public-transit spots, and traditional Nordic culinary recipes.
+      </p>
+
+      <!-- Living Philosophy Grounding Quote - Referencing Not a ToE -->
+      <div class="ground-quote">
+        “Standing at the water’s edge with a line in the current is not an escape from reality, but direct immersion into the irreducible cause-and-effect of the living moment.”
+        <a href="https://powerpig99.github.io/not-a-toe/" target="_blank" rel="noopener noreferrer">Not a ToE (Living Philosophy) →</a>
+      </div>
+    </header>
+
+    <!-- Table of Contents & Realtime Filter -->
+    <section class="toc-section" aria-label="Table of Contents">
+      <div class="toc-header">
+        <h2 id="toc-title" class="toc-title">Table of Contents / 目录导航</h2>
+      </div>
+
+      <div class="search-wrapper">
+        <input type="text" id="search-input" class="search-input" placeholder="Search species, laws, spots, gear, recipes (e.g., Ahven, Kuha, Eräluvat, Vanhankaupunginkoski, Lohikeitto)..." aria-label="Search Handbook Content">
+      </div>
+
+      <ul id="toc-list" class="toc-list">
+        <!-- Rendered by app.js -->
+      </ul>
+    </section>
+
+    <!-- Main Editorial Chapter Feed -->
+    <main id="chapters-container" class="chapters-container">
+      <!-- Full Chapter Articles rendered by app.js -->
+    </main>
+
+    <!-- Ecosystem & Living Philosophy Footer -->
+    <footer class="site-footer">
+      <h3 class="footer-ecosystem-title">Living Field Guides & Philosophy Ecosystem</h3>
+      <ul class="footer-links">
+        <li>🌌 <a href="https://powerpig99.github.io/not-a-toe/" target="_blank" rel="noopener"><strong>Not a ToE (Author Blog)</strong> — First-person living philosophy & ontological clarity</a></li>
+        <li>🍄 <a href="https://powerpig99.github.io/helsinki-mushroom-guide/" target="_blank" rel="noopener"><strong>Helsinki Wild Mushroom Guide</strong> — Trilingual foraging, 22 species, HSL spots & recipes</a></li>
+        <li>🌲 <a href="https://powerpig99.github.io/hunting-in-finland/" target="_blank" rel="noopener"><strong>Hunting in Finland: Resident Field Guide</strong> — Game management, exams, firearms, public forests & clubs</a></li>
+        <li>🎹 <a href="https://powerpig99.github.io/adult-piano-guide/" target="_blank" rel="noopener"><strong>The Adult Piano Companion</strong> — Self-directed mastery and deliberate practice architectures</a></li>
+      </ul>
+
+      <div class="footer-meta">
+        <p>Published under open trace principles. Updated for Finnish Fishing Regulations 2026.<br>Official resources: <a href="https://www.eraluvat.fi" target="_blank" rel="noopener">Eräluvat.fi</a> • <a href="https://www.kalastusrajoitus.fi" target="_blank" rel="noopener">Kalastusrajoitus.fi</a> • <a href="https://vapaa-ajankalastaja.fi" target="_blank" rel="noopener">Suomen Vapaa-ajankalastajat</a></p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="chapters.js?v=20260912"></script>
+  <script src="app.js?v=20260912"></script>
+</body>
+</html>
