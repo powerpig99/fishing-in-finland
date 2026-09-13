@@ -25,10 +25,24 @@ Fish activity in Finland is driven by extreme Nordic daylight and temperature sw
 | **June** | Midnight Sun, summer starts | Zander (*Kuha*), Perch | Evening jigging; Trolling | Zander season explodes! Fish twilight midnight hours (22:00–02:00) in calm bays. |
 | **July** | Warm water (18–24°C), cottages | Perch, Zander, Pike | Deep jigging; Surface poppers | Target morning and late dusk. Midday heat drives fish deeper to submerged trenches. |
 | **August** | Warm water cools; dark nights | Perch, Zander, Crayfish (*Rapu*) | Shad jigging; Crayfish traps | Crayfish season in full swing (from 21 July). Large perch school after young-of-year fry. |
-| **September** | Water cools to 12°C | Trophy Perch, Pike, Sea Trout | Heavy bottom jigs (10–15g) | Prime time for giant perch over 1 kg. River trout closed season begins 1 Sept. |
+| **September** 
+    [🍂 September Guide →](09_september_autumn_fishing_guide.html) | Water cools to 12°C | Trophy Perch, Pike, Sea Trout | Heavy bottom jigs (10–15g) | Prime time for giant perch over 1 kg. River trout closed season begins 1 Sept. 
+    [👉 Open Dedicated September Autumn Fishing Guide ↗](09_september_autumn_fishing_guide.html) |
 | **October** | Crisp autumn, sea storms | Northern Pike (Monsters!), Herring | Big rubber shads (18–25 cm); Litka | Month of monster pike! Big females feed heavily. Second autumn herring run under bridges. |
 | **November** | Freezing spray, shores ice up | Sea Trout, Burbot | Coastal surf casting; Night bottom | Hardcore sea trout spinning in freezing Baltic surf. Thin ice forms in sheltered bays. |
 | **December** | First ice (*Ensijäät*) | Perch, Burbot | Early winter ice fishing | **SAFETY FIRST!** Never walk on ice under 5 cm. Early ice bites are explosive. |
+
+        
+      
+
+  
+### 🍂 Current Season Feature: September Autumn Fishing Guide
+
+  
+Are you fishing in September? Read our dedicated tactical handbook with gear checklists, 10–15g bottom jigging mechanics, and verified video tutorials:
+
+  
+[👉 Read 09. September Autumn Fishing Guide (Trophy Perch, Heavy Jigging & Autumn Pike) →](09_september_autumn_fishing_guide.html)
 
 ---
 
@@ -48,10 +62,24 @@ Fish activity in Finland is driven by extreme Nordic daylight and temperature sw
 | **六月（Kesäkuu）** | 极昼白夜，入夏水暖 | 梭鲈（Kuha）、大拟鲈 | 傍晚软虫跳底（Jigaus）；拖钓 | 梭鲈大军全线出动！晚上10点至凌晨2点微曦暮色中在避风海湾软虫跳底。 |
 | **七月（Heinäkuu）** | 最高水温（18–24℃），木屋度假 | 五道黑、梭鲈、狗鱼 | 深水跳底；水面波趴；休闲手竿 | 抓清晨与黄昏两头。正午大鱼多隐匿于深水水草根部或深坑避暑。 |
 | **八月（Elokuu）** | 黑夜回归，水温温和下行 | 五道黑、梭鲈、小龙虾（Rapu） | 软虫；倒吊；地笼捕虾 | 7月21日正午法定小龙虾捕捞期开启。当年生小鱼成群，大鲈结群炸水。 |
-| **九月（Syyskuu）** | 秋意渐浓，水温跌至 12℃ | 公斤级巨鲈、大狗鱼、海鳟 | 10–15g 铅头重软虫触底 | 冲刺公斤级单尾巨型五道黑的最佳黄金月！注意9月1日起内陆活水河流鳟鱼禁渔。 |
+| **九月（Syyskuu）** 
+    [🍂 九月专项指南 →](09_september_autumn_fishing_guide.html) | 秋意渐浓，水温跌至 12℃ | 公斤级巨鲈、大狗鱼、海鳟 | 10–15g 铅头重软虫触底 | 冲刺公斤级单尾巨型五道黑的最佳黄金月！注意9月1日起内陆活水河流鳟鱼禁渔。 
+    [👉 点击阅读：九月金秋路亚专项实战指南与视频教学 ↗](09_september_autumn_fishing_guide.html) |
 | **十月（Lokakuu）** | 深秋风暴频发，水体清冽 | 米级巨斑狗鱼、秋鲱鱼 | 18–25cm 特大硅胶软鱼；串钩 | 一年中捕获80–110cm巨型母狗鱼的最高概率月！大鲱鱼二次涌入水道。 |
 | **十一月（Marraskuu）** | 初霜初雪，岸边结薄冰 | 海鳟、江鳕 | 沿海怒涛远投亮片；夜间沉底钓 | 硬核专属月。穿防水保温服在寒风大浪中大力抛投修长海鳟亮片，海鳟凶悍。 |
 | **十二月（Joulukuu）** | 初冬初冰（Ensijäät）成型 | 五道黑、江鳕 | 初冰试探性冰钓 | **安全第一！** 纯蓝冰未达 5 厘米绝对严禁踏足！初冰下的五道黑活性惊人。 |
+
+        
+      
+
+  
+### 🍂 当季特刊：九月金秋路亚全景实战指南
+
+  
+正在九月出钓？查阅专为秋季断层水温打造的进阶实战手册，涵盖 10–15g 铅头重软虫慢触底挑逗手法、防咬钛丝配置与官方实操教学视频：
+
+  
+[👉 点击进入：09. 九月金秋路亚实战指南（公斤级巨鲈、重软虫触底与装备视频详解）→](09_september_autumn_fishing_guide.html)
 
 ---
 
@@ -61,6 +89,17 @@ Fish activity in Finland is driven by extreme Nordic daylight and temperature sw
 
         
 Katso kuukausikohtaiset ohjeet ja saalislajit.
+
+      
+
+  
+### 🍂 Ajankohtainen syysopas: Syyskuun kalastusopas
+
+  
+Oletko lähdössä vesille syyskuussa? Lue täsmäoppaamme syysahvenen pohjajigaukseen ja suurhauen pyyntiin:
+
+  
+[👉 Siirry lukuun 09. Syyskuun kalastusopas (Ahvenen jigaus, varusteet ja videot) →](09_september_autumn_fishing_guide.html)
 
 ---
 

@@ -812,3 +812,225 @@ figure.media-figure figcaption {
   font-size: 0.82rem;
   color: var(--accent);
 }
+
+/* ==========================================================================
+   Multi-Page Chapter Directory & Seasonal Spotlight Styles
+   ========================================================================== */
+
+.seasonal-spotlight-banner {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.09) 0%, rgba(217, 119, 6, 0.04) 100%);
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  border-radius: 10px;
+  padding: 1.5rem 1.75rem;
+  margin: 2rem 0 2.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.seasonal-spotlight-banner:hover {
+  transform: translateY(-2px);
+  border-color: rgba(245, 158, 11, 0.6);
+  box-shadow: 0 6px 20px rgba(245, 158, 11, 0.1);
+}
+
+.spotlight-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #f59e0b;
+  background: rgba(245, 158, 11, 0.15);
+  padding: 3px 8px;
+  border-radius: 4px;
+  align-self: flex-start;
+}
+
+.spotlight-title {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 0;
+  color: var(--fg);
+}
+
+.spotlight-desc {
+  font-family: var(--font-sans);
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--muted);
+  margin: 0;
+}
+
+.spotlight-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  align-self: flex-start;
+  margin-top: 0.35rem;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #f59e0b;
+  border: none;
+}
+
+.spotlight-cta:hover {
+  text-decoration: underline;
+  border: none;
+}
+
+/* Chapter Directory Grid */
+.directory-section {
+  margin: 2.5rem 0 3.5rem 0;
+}
+
+.directory-header {
+  margin-bottom: 1.5rem;
+}
+
+.directory-title {
+  font-family: var(--font-sans);
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 0.4rem 0;
+}
+
+.directory-subtitle {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin: 0;
+}
+
+.chapter-directory-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.4rem;
+  margin-top: 1.25rem;
+}
+
+.chapter-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+  padding: 1.4rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease, background-color 0.18s ease;
+  position: relative;
+}
+
+.chapter-card:hover {
+  background: var(--card-hover);
+  border-color: var(--accent);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.chapter-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+
+.chapter-card-num {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.chapter-card-time {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.chapter-card-title {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.35;
+  margin: 0 0 0.5rem 0;
+  color: var(--fg);
+}
+
+.chapter-card-sub {
+  font-family: var(--font-sans);
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: var(--muted);
+  margin: 0 0 1rem 0;
+  flex: 1;
+}
+
+.chapter-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 1.2rem;
+}
+
+.chapter-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--rule);
+  font-family: var(--font-sans);
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.chapter-card:hover .chapter-card-footer span:last-child {
+  transform: translateX(3px);
+}
+
+.chapter-card-footer span:last-child {
+  transition: transform 0.15s ease;
+}
+
+/* Calendar action button */
+.calendar-detail-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.75rem;
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid var(--card-border);
+  border-radius: 6px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  font-family: var(--font-sans);
+  text-decoration: none;
+  margin-top: 0.4rem;
+  transition: all 0.15s ease;
+}
+
+.calendar-detail-btn:hover {
+  background: var(--accent);
+  color: #ffffff;
+  border-color: var(--accent);
+  text-decoration: none;
+}
+

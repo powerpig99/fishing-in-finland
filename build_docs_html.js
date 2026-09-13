@@ -135,8 +135,8 @@ CHAPTERS_DATA.forEach((ch, idx) => {
 
     <!-- Prev / Next Navigation -->
     <nav class="doc-nav-bar" aria-label="Chapter Pagination">
-      ${prevCh ? `<a href="${prevCh.num}_${prevCh.slug}.html" class="doc-nav-link">← ${prevCh.num}. ${prevCh.title.en}</a>` : '<span></span>'}
-      ${nextCh ? `<a href="${nextCh.num}_${nextCh.slug}.html" class="doc-nav-link">${nextCh.num}. ${nextCh.title.en} →</a>` : '<span></span>'}
+      ${prevCh ? `<a href="${prevCh.num}_${prevCh.slug}.html" class="doc-nav-link">← ${prevCh.title.en}</a>` : '<span></span>'}
+      ${nextCh ? `<a href="${nextCh.num}_${nextCh.slug}.html" class="doc-nav-link">${nextCh.title.en} →</a>` : '<span></span>'}
     </nav>
 
     <!-- Footer -->
