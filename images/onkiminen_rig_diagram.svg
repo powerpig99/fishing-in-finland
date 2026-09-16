@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 380" width="100%" height="auto" style="background:#0b1320; font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; border-radius: 8px;">
+  <style>
+    .title { fill: #f8fafc; font-size: 16px; font-weight: 700; letter-spacing: 0.5px; }
+    .sub { fill: #94a3b8; font-size: 12px; }
+    .label { fill: #e2e8f0; font-size: 12px; }
+    .accent { fill: #38bdf8; font-weight: 700; font-size: 13px; }
+    .gold { fill: #f59e0b; font-weight: 700; font-size: 12px; }
+    .green { fill: #34d399; font-weight: 600; font-size: 12px; }
+    .coral { fill: #f87171; font-weight: 600; font-size: 12px; }
+    .water-line { stroke: #0284c7; stroke-width: 2; stroke-dasharray: 6,4; opacity: 0.8; }
+    .bed-line { stroke: #78350f; stroke-width: 2.5; }
+  </style>
+
+  <!-- Title Banner -->
+  <text x="420" y="26" text-anchor="middle" class="title">TRADITIONAL HOOK-AND-LINE RIG (ONKILAITE) • 手竿浮漂钓组全景图解</text>
+  <text x="420" y="44" text-anchor="middle" class="sub">100% Free under Everyman's Rights (Yleiskalastusoikeus) • No Reel • Natural Bait Only</text>
+
+  <!-- Water Surface -->
+  <line x1="40" y1="130" x2="800" y2="130" class="water-line"/>
+  <rect x="40" y="130" width="760" height="190" fill="#0369a1" opacity="0.08"/>
+  <text x="50" y="122" fill="#38bdf8" font-size="11px" font-weight="600">Water Surface (Vedenpinta / 水面)</text>
+
+  <!-- Seabed / Lakebed -->
+  <rect x="40" y="320" width="760" height="40" fill="#291b0f" opacity="0.6"/>
+  <line x1="40" y1="320" x2="800" y2="320" class="bed-line"/>
+  <text x="50" y="342" fill="#d97706" font-size="11px" font-weight="600">Lakebed / Seabed (Pohja / 泥沙碎石水底)</text>
+
+  <!-- 1. Pole Tip Section (Top Left) -->
+  <g transform="translate(60, 60)">
+    <!-- Rod Blank Tip -->
+    <path d="M 0,15 L 90,45" stroke="#64748b" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 90,45 L 120,55" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/>
+    <!-- Stonfo / Tip Connector Loop -->
+    <circle cx="122" cy="56" r="4" fill="#ef4444"/>
+    <text x="40" y="10" class="accent">1. Telescopic Pole Tip (Onkivavan kärki)</text>
+    <text x="40" y="26" class="sub">4m–6m Carbon/Fiberglass whip • 无轮伸缩手竿竿尖</text>
+    
+    <!-- Slipknot connection -->
+    <path d="M 124,58 Q 135,70 145,95" stroke="#38bdf8" stroke-width="2" fill="none"/>
+    <text x="140" y="75" class="gold">Line attached to tip</text>
+    <text x="140" y="89" class="sub">马蹄结活套连接红绳 / Stonfo 连接扣</text>
+  </g>
+
+  <!-- 2. Monofilament Line from tip to float -->
+  <path d="M 205,155 L 290,110" stroke="#38bdf8" stroke-width="1.8" fill="none"/>
+  <text x="210" y="125" class="label">Mainline (0.18–0.22mm Monofilament)</text>
+  <text x="210" y="139" class="sub">尼龙单丝主线（竿长一致 4-5米）</text>
+
+  <!-- 3. Sensitive Float (Koho / 浮漂) -->
+  <g transform="translate(300, 90)">
+    <!-- Top antenna (bright red/orange) -->
+    <line x1="0" y1="0" x2="0" y2="38" stroke="#ef4444" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Yellow warning stripe -->
+    <line x1="0" y1="18" x2="0" y2="28" stroke="#facc15" stroke-width="3.5"/>
+    <!-- Float body (Balsa / foam, shaped egg or quill) -->
+    <ellipse cx="0" cy="50" rx="9" ry="16" fill="#f8fafc" stroke="#0284c7" stroke-width="1.5"/>
+    <!-- Bottom stem (carbon/wire) -->
+    <line x1="0" y1="66" x2="0" y2="95" stroke="#334155" stroke-width="2"/>
+    <!-- Silicone fixing sleeves -->
+    <rect x="-3" y="72" width="6" height="5" fill="#f59e0b" rx="1"/>
+    <rect x="-3" y="88" width="6" height="5" fill="#f59e0b" rx="1"/>
+    
+    <!-- Float Labels -->
+    <text x="25" y="15" class="accent">2. Float (Onkikoho / 浮漂)</text>
+    <text x="25" y="32" class="sub">1.5g–3g sensitive antenna float</text>
+    <text x="25" y="48" class="gold">Sliding adjustment for depth (Syvyyden säätö)</text>
+    <text x="25" y="63" class="sub">上下推移硅胶管调整钓目与水深</text>
+  </g>
+
+  <!-- 4. Line descending beneath water -->
+  <line x1="300" y1="185" x2="300" y2="250" stroke="#38bdf8" stroke-width="1.5"/>
+
+  <!-- 5. Split Shot Sinkers (Haulipainot / 咬铅铅皮) -->
+  <g transform="translate(300, 250)">
+    <!-- Main shot group -->
+    <circle cx="0" cy="0" r="4.5" fill="#94a3b8" stroke="#475569"/>
+    <circle cx="0" cy="12" r="4.5" fill="#94a3b8" stroke="#475569"/>
+    <circle cx="0" cy="24" r="4" fill="#94a3b8" stroke="#475569"/>
+    <!-- Dropper / Tell-tale shot (signaalihapuli) -->
+    <line x1="0" y1="28" x2="0" y2="45" stroke="#38bdf8" stroke-width="1.5"/>
+    <circle cx="0" cy="45" r="3" fill="#cbd5e1" stroke="#475569"/>
+    
+    <!-- Sinker Labels -->
+    <text x="20" y="10" class="accent">3. Split Shot Weights (Haulipainot)</text>
+    <text x="20" y="26" class="sub">Graduated lead split shots (0.4g–0.8g)</text>
+    <text x="20" y="42" class="gold">Trim so only bright antenna tip protrudes</text>
+    <text x="20" y="56" class="sub">精确配铅：仅让鲜艳漂尾露出水面（调灵敏度）</text>
+  </g>
+
+  <!-- 6. Leader / Hooklength to Hook -->
+  <line x1="300" y1="295" x2="300" y2="305" stroke="#38bdf8" stroke-width="1.2"/>
+
+  <!-- 7. Hook & Live Bait (Koukku ja syötti) -->
+  <g transform="translate(300, 305)">
+    <!-- Single Hook (#10-#14) -->
+    <path d="M 0,0 L 0,8 Q 0,16 8,16 Q 14,16 14,8 L 14,2" fill="none" stroke="#f1f5f9" stroke-width="1.8"/>
+    <!-- Earthworm baited (curved wiggling worm) -->
+    <path d="M -6,4 Q 2,2 4,8 Q 6,14 12,12 Q 18,10 24,14 Q 28,18 26,24" fill="none" stroke="#f43f5e" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Hook & Bait Labels -->
+    <text x="45" y="2" class="accent">4. Hook &amp; Live Earthworm (Koukku ja mato)</text>
+    <text x="45" y="18" class="coral">#10–#14 Round bend single hook + Wiggling worm</text>
+    <text x="45" y="32" class="sub">10-14号细条单钩，穿过蚯蚓头胸部，保留活性尾部蠕动</text>
+  </g>
+
+  <!-- 8. Depth & Strike Zone Indicator (Bottom distance) -->
+  <g transform="translate(560, 240)">
+    <rect x="0" y="0" width="250" height="70" rx="6" fill="#1e293b" stroke="#334155" opacity="0.9"/>
+    <text x="12" y="20" class="green">🎯 Optimal September Depth (10–20 cm off bottom)</text>
+    <text x="12" y="38" class="label">Perch &amp; Roach graze near the seabed.</text>
+    <text x="12" y="54" class="sub">秋季底层鱼活性：离底 10–20 厘米悬垂（避免挂淤泥枯叶）</text>
+    <!-- Arrow indicating bottom gap -->
+    <path d="M -30,68 L -30,78" stroke="#34d399" stroke-width="2" marker-end="url(#arrow)"/>
+  </g>
+
+  <!-- Dimension Indicator Bracket -->
+  <line x1="270" y1="305" x2="270" y2="320" stroke="#34d399" stroke-width="1.5"/>
+  <line x1="265" y1="305" x2="275" y2="305" stroke="#34d399" stroke-width="1.5"/>
+  <line x1="265" y1="320" x2="275" y2="320" stroke="#34d399" stroke-width="1.5"/>
+  <text x="260" y="315" text-anchor="end" fill="#34d399" font-size="10px" font-weight="700">10-20 cm</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="100%" height="auto" style="background:#0d1117; font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif; border-radius:8px;">
+  <text x="300" y="30" text-anchor="middle" fill="#f0f3f6" font-size="16" font-weight="700">TELESCOPIC POLE &amp; ONKILAITE RIG • 传统手竿与成品线组</text>
+  <text x="300" y="48" text-anchor="middle" fill="#8b949e" font-size="12">€10–€15 Complete Starter Kit • 100% Free General Right in Finland</text>
+
+  <!-- Telescopic Pole (Collapsed sections) -->
+  <g transform="translate(60, 80)">
+    <!-- Main Handle Section -->
+    <rect x="0" y="0" width="180" height="18" rx="4" fill="#334155" stroke="#64748b" stroke-width="1.5"/>
+    <!-- Foam grip -->
+    <rect x="0" y="0" width="60" height="18" rx="3" fill="#1e293b"/>
+    <!-- Next sections extending -->
+    <rect x="180" y="3" width="90" height="12" rx="2" fill="#475569"/>
+    <rect x="270" y="5" width="70" height="8" rx="2" fill="#64748b"/>
+    <rect x="340" y="6" width="60" height="6" rx="1" fill="#94a3b8"/>
+    <line x1="400" y1="9" x2="440" y2="9" stroke="#cbd5e1" stroke-width="2"/>
+    <circle cx="442" cy="9" r="3" fill="#ef4444"/>
+
+    <text x="0" y="-12" fill="#38bdf8" font-size="13" font-weight="700">Teleskooppionkivapa (Telescopic Cane Pole 4m–6m)</text>
+    <text x="0" y="36" fill="#94a3b8" font-size="11">Fiberglass or carbon whip • Collapses to ~1.1m for easy transport (€6–€12 at Motonet/Prisma)</text>
+  </g>
+
+  <!-- Pre-tied Rig on Winder (Valmis onkilaite) -->
+  <g transform="translate(80, 160)">
+    <!-- Plastic winder (H-ladder winder) -->
+    <rect x="0" y="0" width="140" height="75" rx="6" fill="#0f172a" stroke="#0284c7" stroke-width="1.5"/>
+    <path d="M 0,25 L 15,37.5 L 0,50 Z" fill="#0d1117"/>
+    <path d="M 140,25 L 125,37.5 L 140,50 Z" fill="#0d1117"/>
+    <!-- Wound line -->
+    <rect x="25" y="10" width="90" height="55" rx="3" fill="#0284c7" opacity="0.3"/>
+    <!-- Embedded float -->
+    <rect x="40" y="32" width="60" height="12" rx="6" fill="#f43f5e"/>
+    <circle cx="70" cy="38" r="4" fill="#fde047"/>
+
+    <text x="160" y="25" fill="#38bdf8" font-size="13" font-weight="700">Valmis Onkilaite (Pre-tied Float Rig)</text>
+    <text x="160" y="44" fill="#e2e8f0" font-size="11">Includes 5m nylon line, balanced float, split shots &amp; tied hook</text>
+    <text x="160" y="62" fill="#34d399" font-size="11">Ready out of packet • €2.50–€3.50 at Motonet / Prisma / Tokmanni</text>
+  </g>
+
+  <!-- Live Earthworms Tub (Kastemadot) -->
+  <g transform="translate(80, 255)">
+    <!-- Tub -->
+    <rect x="0" y="0" width="70" height="40" rx="6" fill="#334155" stroke="#64748b" stroke-width="1.5"/>
+    <rect x="-4" y="-3" width="78" height="8" rx="2" fill="#ef4444"/>
+    <text x="35" y="24" text-anchor="middle" fill="#f8fafc" font-size="10" font-weight="700">WORMS</text>
+    
+    <text x="90" y="16" fill="#f59e0b" font-size="13" font-weight="700">Elävät Kastemadot (Live Earthworms)</text>
+    <text x="90" y="34" fill="#94a3b8" font-size="11">Refrigerated tub (~15-25 worms) • €3.50–€4.50 at tackle shops &amp; gas stations</text>
+  </g>
+</svg>

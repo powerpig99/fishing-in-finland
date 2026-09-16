@@ -1,7 +1,7 @@
 # 05. Zero-Experience Beginner Gear Roadmap & Essential Knots
 *05. 零基础新人极简装备清单与核心钓结视频演示 • 05. Aloittelijan varustehankinnat, budjetti ja solmuopas*
 
-> **Reading Time**: 8 min  
+> **Reading Time**: 10 min  
 > **Sub-topics**: All-round spinning combo, winter ice kit, tackle box essentials, stores in Finland, and essential leader knot tutorials.
 
 ---
@@ -13,6 +13,17 @@
   
 To ensure you know exactly what gear to look for in Finnish tackle stores (like Motonet, Ruoto, or Prisma), browse the visual equipment gallery below with exact Finnish names and functions:
 
+  
+
+    
+    
+### Teleskooppionkivapa &amp; Onkilaite
+![Telescopic Pole &amp; Onkilaite Rig](../../images/gear_onki_kit.svg)
+*4m–5m Pole + Pre-tied Rig + Live Earthworms*
+
+The ultimate zero-barrier entry point in Finland. No reel, no casting tangles, no license required. Telescopic pole collapses to 1.1m for bus transit. Catch perch, roach, and bream from day one.
+
+    
   
     
     
@@ -116,6 +127,41 @@ You only need to master two knots to fish successfully in Finland: connecting ze
 > Official Finnish knot tutorial: step-by-step close-up demonstration of tying the Double Uni knot to join braided line (*kuitusiima*) to fluorocarbon leader (*peruke*).
 > [Watch on YouTube](https://www.youtube.com/watch?v=mxrqIiZ3DOA)
 
+  
+
+  
+## 🛒 Where &amp; How to Buy Fishing Gear in Finland (Kaupat &amp; Hankinnat)
+
+  
+Acquiring fishing tackle in Finland is straightforward and accessible. Below is an exhaustive retail roadmap covering where to go, what each store offers, and how to purchase live bait:
+
+  
+    
+| Store Chain | Store Type &amp; Availability | What to Buy There | Live Bait Available? |
+| --- | --- | --- | --- |
+| **Motonet** *(Top Recommendation!)* | Leisure &amp; Automotive superstores across Finland (e.g., Roihupelto, Konala, Tammisto, Lommila). | Widest selection of all: Patriot telescopic poles (4m €5.99, 5m €8.99), ready-tied onkilaitteet (€2.50–€3.50), hooks, floats, spinning rods, lures, filleting knives. | **YES: Dedicated bait fridge** in the fishing department with live nightcrawlers (*kastemadot* €3.90/tub), worms (€3.50), and maggots (€2.90). |
+| **Prisma** (S-Group) | Every major hypermarket (Tripla, Kaari, Sello, Iso Omena, Itäkeskus, Jumbo). Accessible via metro/train. | Dedicated *Kalastus* aisle with starter telescopic onki poles, ready float rigs, spare hooks, split shots, and basic spinning combos. | **YES: Small bait cooler** usually positioned at the end of the fishing aisle or at the cash registers from May to October. |
+| **K-Citymarket** (K-Group) | Large hypermarkets (Ruoholahti, Easton, Jumbo, Iso Omena). | Seasonal fishing equipment displays: affordable telescopic rods, line winders, Rapala lures, tackle boxes. | **Seasonal:** Most major outlets keep live earthworms in a small cooler during the ice-free season. |
+| **Tokmanni** | Budget discount department stores in every suburban district and town center. | Ultra-low budget starter poles (€5–€8), €1.99 float rigs, small tackle kits, plastic fish buckets. | Often available during summer months in select stores. |
+| **Biltema** | Car and home department store. | Budget rods, simple telescopic cane poles, nets, tackle boxes, and camping supplies. | Rarely carries live bait. |
+| **Specialist Pro Stores** (Ruoto, Wobbleri, Schröder) | **Ruoto Mega Store** (Tuusula / Tampere / Kaarina), **Wobbleri** (Malmi, Helsinki), **Schröder** (Unioninkatu, Helsinki center). | High-end carbon whips, competition pole rigs, match fishing gear, micro-lead split shot dispensers, expert local advice. | **YES: Premium live bait** always in stock (fresh large nightcrawlers, maggots, and seasonal dendrobaena worms). |
+| **ABC Gas Stations** | Nationwide 24/7 service stations on major highways and suburban arteries. | Emergency live bait and basic spare hook/float packs for anglers heading out at dawn or on Sundays. | **YES: Refrigerator counter** often stocked with live earthworms (*Matoja*). |
+
+  
+
+  
+### 📋 The Exact €10–€15 Onkiminen Shopping Checklist
+
+  
+Take this checklist with Finnish terminology to the store or search on motonet.fi / prisma.fi:
+
+  
+    - **Telescopic Pole:** Ask for *Teleskooppionkivapa, 5 metriä* (~€8.00–€10.00). A 5m pole is the golden length for shore fishing, reaching past pier pylons and rock edges.
+    - **Ready-Made Float Rig:** Look for *Valmis onkilaite* (~€2.50–€3.00). Comes wound on an H-shaped plastic ladder winder with 5m line, float, calibrated lead split shots, and a pre-tied #10–#12 hook.
+    - **Live Earthworms:** Look inside the bait fridge for *Kastematoja (purkki)* (~€3.90 for ~12 large Canadian nightcrawlers) or *Onkimatoja* (~€3.50 for ~25 medium garden worms). Keep cool out of direct sunlight.
+    - **Disgorger / Pliers:** *Koukunirrotin* (~€2.00) or small needle-nose pliers for unhooking fish quickly and gently.
+    - **Plastic Bucket:** *Sanko / Ämpäri* (~€1.50) to hold clean lake water for fish or bait.
+
 ---
 
 ## 中文版 (Chinese Version)
@@ -125,6 +171,17 @@ You only need to master two knots to fish successfully in Finland: connecting ze
   
 为了让您在芬兰当地渔具店（Motonet、Ruoto、Prisma）选购时一目了然，以下为核心装备的实物高清图鉴、芬兰语专属名称与实战功能：
 
+  
+
+    
+    
+### Teleskooppionkivapa &amp; Onkilaite（伸缩手竿与成品线组）
+![传统手竿与成品线组](../../images/gear_onki_kit.svg)
+*4–5米伸缩竿 + 成品浮漂主线组 + 活蚯蚓盒*
+
+芬兰最省心省钱的入门首选。无绕线轮、零炸线打结风险、无需任何钓鱼证件。缩回后仅1.1米便于携带搭乘公交地铁。第一天出钓即可稳定起鱼。
+
+    
   
     
     
@@ -228,6 +285,38 @@ You only need to master two knots to fish successfully in Finland: connecting ze
 > 超高清特写慢速演示：如何将柔软易打滑的PE编织线与高硬度碳线前导牢牢编织咬合，结体纤细平滑，轻松穿过微导环。
 > [Watch on YouTube](https://www.youtube.com/watch?v=mxrqIiZ3DOA)
 
+  
+
+  
+## 🛒 芬兰渔具实体店购买全景指南（去哪里买？买什么？）
+
+  
+在芬兰购买钓具非常便捷，既有遍布各区的综合平价大卖场，也有极度专业的渔猎巨舰。以下为您详细盘点主要实体购买渠道与活饵获取地点：
+
+  
+    
+| 实体店连锁品牌 | 门店定位与交通便利度 | 主打商品与选购建议 | 是否有活体生物饵？ |
+| --- | --- | --- | --- |
+| **Motonet** *（全芬垂钓第一首选！）* | 芬兰最大的汽车与户外生活平价巨舰（赫尔辛基 Roihupelto、Konala，万塔 Tammisto，埃斯波 Lommila 等，各大区均有分店）。 | **全芬品类最齐全、性价比最高：** Patriot 伸缩手竿（4米 5.99欧，5米 8.99欧），成品浮漂线组（2.50–3.50欧），散装鱼钩、铅皮、路亚竿轮套装与各种假饵。 | **有专属生物饵恒温冰箱：** 位于渔具专区，常年供应大号加拿大夜蚯蚓（*Kastemadot*，约3.90欧/盒）、中号红蚯蚓（*Onkimadot*，约3.50欧/盒）与高活性蝇蛆（*Kärpäsentoukat*，约2.90欧/盒）。 |
+| **Prisma** （S集团连锁巨舰） | 遍布大赫尔辛基各大商场枢纽（如中央车站旁 Tripla、Kaari、Sello、Iso Omena、Itäkeskus），地铁火车直达。 | 商场内设有专门的 *Kalastus*（垂钓专柜），陈列有新手手竿、成品浮漂卷线板、五道黑路亚饵与抄网等。 | **有小型活饵冷柜：** 5月至10月开放水域期间，通常在渔具货架端头或收银台附近设有小冷藏柜售卖盒装活蚯蚓。 |
+| **K-Citymarket** （K集团大型超市） | 各大综合商业中心（Ruoholahti 运河旁、Easton、Jumbo 机场旁等）。 | 季节性户外垂钓货架，提供经济型手竿、乐伯乐（Rapala）经典路亚饵、钓线与便携配件盒。 | **季节性供应：** 夏季与秋季大部分大型店面冷藏柜供应活蚯蚓。 |
+| **Tokmanni** | 芬兰著名平价折扣百货店，深入各个居民区与小镇中心。 | 超平价入门手竿（5–8 欧元）、简易线组板（1.99 欧元）、塑料打水桶等。 | 部分分店在夏季柜台有售活蚯蚓。 |
+| **Biltema** | 北欧汽车与工具生活连锁店。 | 低价入门路亚竿、简易手竿、折叠抄网、鱼箱与户外露营工具。 | 通常不提供活饵。 |
+| **专业顶级渔具店** （Ruoto, Wobbleri, Schröder） | **Ruoto Mega Store**（Tuusula 机场附近全国最大渔猎殿堂）、**Wobbleri**（Malmi）、**Schröder**（赫尔辛基白教堂旁百年老铺）。 | 高端竞技碳素长节手竿、超轻浮漂、微距铅皮夹具、专业钓手现场答疑与定制线组。 | **有顶级活饵：** 质量极高的大肥蚯蚓、红虫（冬春）与白蛆，活性极强。 |
+| **ABC 加油站连锁便利店** | 遍布全国各级公路与城镇枢纽，全天候 24 小时营业。 | 如果您在周日或清晨临时起意出发去钓鱼，ABC 加油站是救急买饵的秘密基地！ | **有冷藏活饵：** 收银冷柜旁通常长期备有盒装活蚯蚓（*Matoja myytävänä*）。 |
+
+  
+
+  
+### 📋 10–15 欧元手竿极简购物清单（芬兰语对照，可直接出示给店员）
+
+  
+    - **伸缩手竿：** *Teleskooppionkivapa, 5 metriä*（约 8–10 欧元）。强烈推荐买 5 米规格！长度适中，既能避开岸边乱石，又不过重。
+    - **预绑成品浮漂线组：** *Valmis onkilaite*（约 2.50–3.00 欧元）。塑料工字绕线板上已绑好 5 米尼龙线、配平好的浮漂、铅坠和 10-12 号单钩，拆开即钓。
+    - **冷藏活蚯蚓：** *Kastematoja (purkki)*（大盒约 3.90 欧，含十余条肥美大夜蚯蚓）。注意保持阴凉避光，不可暴晒。
+    - **摘钩器/尖嘴钳：** *Koukunirrotin* 或 *Kärkipihdit*（约 2–3 欧元），遇到吞钩深时便于快速安全摘钩。
+    - **简易打水桶：** *Sanko / Ämpäri*（超市 1.5 欧元普通塑料水桶），用于装水保活鱼获或清洗双手。
+
 ---
 
 ## Suomeksi (Finnish Version)
@@ -236,6 +325,13 @@ You only need to master two knots to fish successfully in Finland: connecting ze
 
         
 Laadukas 7-jalkainen ML-setti avokelalla kattaa useimmat kalastustilanteet. Opettele tupla-uni-solmu kuitu- ja monofiilisiiman liittämiseen.
+
+      
+    
+## 🛒 Kalastusvälineiden hankinta ja kaupat Suomessa
+
+    
+Varusteet on helppo hankkia Motonetista, Prismasta, Tokmannilta tai erikoisliikkeistä (Ruoto Mega Store, Wobbleri). Onkivapa (5m), valmis onkilaite ja matopurkki maksavat yhteensä vain 10–15 euroa.
 
 ---
 
