@@ -18,7 +18,7 @@ In Finland, hook-and-line angling (*Onkiminen*) is an ancient cultural cornersto
 > The Legal Definition: To qualify as free Onkiminen under the Finnish Fishing Act, you must use a rod without a mechanical casting reel (e.g. a telescopic pole / matomaaki), a single line with float and sinker, and a single hook baited with natural biological bait (earthworms, maggots, or dough). Lures, spinners, and mechanical reels are not permitted under this right.
 
   
-![Traditional Onkiminen Float Rig Diagram](../../images/onkiminen_rig_diagram.svg)
+![Traditional Onkiminen Float Rig Diagram](../../images/onkiminen_rig_diagram_en.svg)
 *Figure 3.1: The Classic Onkilaite Terminal Float Rig: 4m–6m telescopic pole tip attached via slipknot/Stonfo connector, 0.18–0.22mm monofilament mainline, sensitive sliding antenna float, graduated split shot sinkers, and single hook baited with live wiggling earthworm hovering 10–20 cm above the bottom.*
 
   
@@ -138,7 +138,7 @@ From December to April, Finnish waters freeze solid. Learn how to drill clean ho
 > 法定手竿界定标准： 依《芬兰渔业法》严谨规定，享受免费 Onkiminen 渔权的钓具必须满足：使用无任何机械抛投绕线轮的简易钓竿（如玻璃钢/碳素伸缩手竿、竹竿 matomaaki），单主线搭配浮漂与单钩，且必须使用天然生物饵（蚯蚓、面包虫、面包或面团）。凡加装机械绕线轮或使用人造假饵/铁板者，均不再属于该项免费范畴。
 
   
-![传统手竿浮漂线组全景示意图](../../images/onkiminen_rig_diagram.svg)
+![传统手竿浮漂线组全景示意图](../../images/onkiminen_rig_diagram_zh.svg)
 *图 3.1：经典 Onkilaite 手竿浮漂线组：4m–6m 伸缩手竿竿尖通过马蹄结活套牢系 0.18–0.22mm 尼龙主线，加装硅胶套管滑动醒目立漂，梯级咬铅精确配平浮力，单钩挂新鲜鲜活红蚯蚓悬垂于水底上方 10–20 厘米处。*
 
   
@@ -254,7 +254,7 @@ From December to April, Finnish waters freeze solid. Learn how to drill clean ho
 Onkiminen on Suomen vanhin ja suosituin kalastusmuoto, joka kuuluu **maksuttoman yleiskalastusoikeuden** piiriin lähes kaikilla järvillä, lammilla ja merialueilla ilman mitään lupia.
 
   
-![Onkilaitteen rakenne](../../images/onkiminen_rig_diagram.svg)
+![Onkilaitteen rakenne](../../images/onkiminen_rig_diagram_fi.svg)
 *Kuva 3.1: Perinteisen onkilaitteen rakenne: teleskooppivapa, siima, koho, haulipainot ja matokoukku.*
 
   

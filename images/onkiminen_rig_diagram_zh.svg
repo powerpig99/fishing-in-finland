@@ -1,70 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="100%" height="auto" style="background:#070d18; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; border-radius: 12px; border: 1px solid #1e293b;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="100%" height="auto" style="background:#070d18; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif; border-radius: 12px; border: 1px solid #1e293b;">
   <defs>
     <!-- Gradients -->
-    <linearGradient id="waterGradEn" x1="0%" y1="0%" x2="0%" y2="100%">
+    <linearGradient id="waterGradZh" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#0284c7" stop-opacity="0.22"/>
       <stop offset="60%" stop-color="#0369a1" stop-opacity="0.12"/>
       <stop offset="100%" stop-color="#075985" stop-opacity="0.05"/>
     </linearGradient>
-    <linearGradient id="bedGradEn" x1="0%" y1="0%" x2="0%" y2="100%">
+    <linearGradient id="bedGradZh" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#261a10"/>
       <stop offset="100%" stop-color="#140d08"/>
     </linearGradient>
-    <linearGradient id="cardGradEn" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="cardGradZh" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#0f172a" stop-opacity="0.95"/>
       <stop offset="100%" stop-color="#1e293b" stop-opacity="0.80"/>
     </linearGradient>
-    <linearGradient id="strikeGradEn" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="strikeGradZh" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#064e3b" stop-opacity="0.90"/>
       <stop offset="100%" stop-color="#022c22" stop-opacity="0.95"/>
     </linearGradient>
     <!-- Drop Shadow Filter -->
-    <filter id="shadowEn" x="-5%" y="-10%" width="110%" height="130%">
+    <filter id="shadowZh" x="-5%" y="-10%" width="110%" height="130%">
       <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000000" flood-opacity="0.45"/>
     </filter>
   </defs>
 
   <style>
     .header-pill { fill: #38bdf8; font-size: 11px; font-weight: 700; letter-spacing: 0.8px; }
-    .main-title { fill: #f8fafc; font-size: 17px; font-weight: 800; letter-spacing: 0.4px; }
+    .main-title { fill: #f8fafc; font-size: 18px; font-weight: 800; letter-spacing: 0.5px; }
     .sub-title { fill: #94a3b8; font-size: 12.5px; }
-    .card-title { font-size: 14px; font-weight: 700; letter-spacing: 0.2px; }
-    .card-desc { fill: #f1f5f9; font-size: 12.5px; font-weight: 500; }
+    .card-title { font-size: 15px; font-weight: 700; letter-spacing: 0.2px; }
+    .card-desc { fill: #f1f5f9; font-size: 13px; font-weight: 500; }
     .card-desc-sub { fill: #94a3b8; font-size: 12px; }
     .badge-text { fill: #ffffff; font-size: 12px; font-weight: 800; text-anchor: middle; dominant-baseline: central; }
-    .water-text { fill: #38bdf8; font-size: 11.5px; font-weight: 600; }
-    .bed-text { fill: #d97706; font-size: 11.5px; font-weight: 600; }
+    .water-text { fill: #38bdf8; font-size: 12px; font-weight: 600; }
+    .bed-text { fill: #d97706; font-size: 12px; font-weight: 600; }
     .leader-line { stroke: #475569; stroke-width: 1.2; stroke-dasharray: 4,3; opacity: 0.7; }
   </style>
 
   <!-- ================================================================= -->
   <!-- 1. HEADER BANNER                                                  -->
   <!-- ================================================================= -->
-  <rect x="330" y="14" width="340" height="22" rx="11" fill="#0369a1" fill-opacity="0.3" stroke="#0284c7" stroke-width="1"/>
-  <text x="500" y="25" text-anchor="middle" class="header-pill">EVERYMAN'S RIGHTS (YLEISKALASTUSOIKEUS) • 100% FREE</text>
+  <rect x="310" y="14" width="380" height="22" rx="11" fill="#0369a1" fill-opacity="0.3" stroke="#0284c7" stroke-width="1"/>
+  <text x="500" y="25" text-anchor="middle" class="header-pill">芬兰通用自然民权（YLEISKALASTUSOIKEUS）• 终身完全免费</text>
   
-  <text x="500" y="50" text-anchor="middle" class="main-title">TRADITIONAL HOOK-AND-LINE RIG (ONKILAITE)</text>
-  <text x="500" y="69" text-anchor="middle" class="sub-title">No Reel • Telescopic Pole (4m–6m) • Natural Live Bait • Zero Permit Required</text>
+  <text x="500" y="50" text-anchor="middle" class="main-title">传统手竿静水浮漂钓组全景图解（ONKILAITE）</text>
+  <text x="500" y="69" text-anchor="middle" class="sub-title">无轮伸缩手竿（4–6米）• 浮漂单钩 • 鲜活红蚯蚓 • 任何国籍与年龄均免牌照费</text>
 
   <!-- ================================================================= -->
   <!-- 2. WATER COLUMN & LAKEBED BACKGROUND                              -->
   <!-- ================================================================= -->
   <!-- Water Column Box -->
-  <rect x="35" y="155" width="375" height="315" fill="url(#waterGradEn)" rx="6"/>
+  <rect x="35" y="155" width="375" height="315" fill="url(#waterGradZh)" rx="6"/>
 
   <!-- Water Surface Line -->
   <line x1="35" y1="155" x2="410" y2="155" stroke="#38bdf8" stroke-width="1.8" stroke-dasharray="6,4"/>
-  <text x="45" y="147" class="water-text">Water Surface (Vedenpinta)</text>
+  <text x="45" y="147" class="water-text">水面（Vedenpinta）</text>
 
   <!-- Lakebed / Seabed -->
-  <rect x="35" y="470" width="375" height="65" fill="url(#bedGradEn)" rx="4"/>
+  <rect x="35" y="470" width="375" height="65" fill="url(#bedGradZh)" rx="4"/>
   <line x1="35" y1="470" x2="410" y2="470" stroke="#92400e" stroke-width="2.5"/>
   <!-- Decorative stones on bed -->
   <ellipse cx="85" cy="482" rx="12" ry="5" fill="#451a03" opacity="0.7"/>
   <ellipse cx="150" cy="486" rx="8" ry="4" fill="#361502" opacity="0.8"/>
   <ellipse cx="290" cy="481" rx="15" ry="6" fill="#451a03" opacity="0.6"/>
   <ellipse cx="360" cy="485" rx="10" ry="4" fill="#361502" opacity="0.7"/>
-  <text x="45" y="505" class="bed-text">Lakebed / Seabed (Pohja)</text>
+  <text x="45" y="505" class="bed-text">泥沙碎石水底（Pohja）</text>
 
   <!-- ================================================================= -->
   <!-- 3. RIG GRAPHIC ELEMENTS                                           -->
@@ -97,7 +97,7 @@
   <line x1="230" y1="135" x2="242" y2="135" stroke="#ef4444" stroke-width="1.2"/>
   <line x1="230" y1="155" x2="242" y2="155" stroke="#38bdf8" stroke-width="1.2"/>
   <line x1="236" y1="135" x2="236" y2="155" stroke="#facc15" stroke-width="1.2"/>
-  <text x="248" y="148" fill="#facc15" font-size="10.5px" font-weight="600">1–2 cm visible tip</text>
+  <text x="248" y="148" fill="#facc15" font-size="11px" font-weight="600">漂尾外露 1–2 cm</text>
 
   <!-- Underwater Mainline descending straight down -->
   <line x1="215" y1="232" x2="215" y2="355" stroke="#38bdf8" stroke-width="1.6"/>
@@ -123,8 +123,8 @@
   <line x1="165" y1="440" x2="177" y2="440" stroke="#10b981" stroke-width="1.8"/>
   <line x1="165" y1="470" x2="177" y2="470" stroke="#10b981" stroke-width="1.8"/>
   <line x1="171" y1="440" x2="171" y2="470" stroke="#10b981" stroke-width="1.8"/>
-  <text x="160" y="452" text-anchor="end" fill="#10b981" font-size="12px" font-weight="800">10–20 cm</text>
-  <text x="160" y="466" text-anchor="end" fill="#34d399" font-size="10.5px" font-weight="600">Strike Zone</text>
+  <text x="160" y="452" text-anchor="end" fill="#10b981" font-size="12.5px" font-weight="800">10–20 cm</text>
+  <text x="160" y="466" text-anchor="end" fill="#34d399" font-size="11px" font-weight="600">离底黄金水层</text>
 
   <!-- ================================================================= -->
   <!-- 4. LEADER LINES CONNECTING GRAPHIC TO CARDS                       -->
@@ -140,53 +140,53 @@
   <!-- ================================================================= -->
 
   <!-- CARD 1: Pole Tip & Connection -->
-  <g filter="url(#shadowEn)">
-    <rect x="435" y="82" width="530" height="78" rx="8" fill="url(#cardGradEn)" stroke="#1e293b" stroke-width="1.2"/>
+  <g filter="url(#shadowZh)">
+    <rect x="435" y="82" width="530" height="78" rx="8" fill="url(#cardGradZh)" stroke="#1e293b" stroke-width="1.2"/>
     <circle cx="460" cy="106" r="12" fill="#0284c7"/>
     <text x="460" y="106" class="badge-text">1</text>
-    <text x="484" y="104" fill="#38bdf8" class="card-title">Pole Tip &amp; Line Connection (Vavan kärki / Stonfo)</text>
-    <text x="484" y="125" class="card-desc">4m–6m telescopic carbon/fiberglass whip pole • 0.18–0.22mm monofilament</text>
-    <text x="484" y="144" class="card-desc-sub">Tie a double slipknot over the tip braid: grips tighter under load, releases in 1 second.</text>
+    <text x="484" y="104" fill="#38bdf8" class="card-title">竿尖连接与马蹄结 (Vavan kärki / Siiman kiinnitys)</text>
+    <text x="484" y="125" class="card-desc">4–6米碳素无轮伸缩手竿 • 0.18–0.22mm 尼龙主线（主线长度与竿长一致）</text>
+    <text x="484" y="144" class="card-desc-sub">主线顶端打双圈马蹄活结套牢竿稍红绳：受力越拉越紧，向外轻推一秒即可解开。</text>
   </g>
 
   <!-- CARD 2: Sensitive Float & Sliding Depth -->
-  <g filter="url(#shadowEn)">
-    <rect x="435" y="172" width="530" height="84" rx="8" fill="url(#cardGradEn)" stroke="#1e293b" stroke-width="1.2"/>
+  <g filter="url(#shadowZh)">
+    <rect x="435" y="172" width="530" height="84" rx="8" fill="url(#cardGradZh)" stroke="#1e293b" stroke-width="1.2"/>
     <circle cx="460" cy="197" r="12" fill="#d97706"/>
     <text x="460" y="197" class="badge-text">2</text>
-    <text x="484" y="195" fill="#fbbf24" class="card-title">Sensitive Float &amp; Depth Adjustment (Onkikoho &amp; Syvyyssäätö)</text>
-    <text x="484" y="216" class="card-desc">1.5g–3g slim antenna float fixed via sliding silicone sleeves (Silikoniletkut)</text>
-    <text x="484" y="235" class="card-desc-sub">Slide sleeves along line to set depth: calibrate so only the bright red/yellow tip pokes out.</text>
+    <text x="484" y="195" fill="#fbbf24" class="card-title">灵敏立漂与滑动调深 (Onkikoho / Syvyyssäätö)</text>
+    <text x="484" y="216" class="card-desc">1.5g–3g 细长立式醒目立漂，通过上下两粒黄色硅胶套管固定于主线</text>
+    <text x="484" y="235" class="card-desc-sub">滑动套管调节钓目水深：配铅调平水，仅露出红/黄色视标漂尾（露出 1–2 厘米）。</text>
   </g>
 
   <!-- CARD 3: Split Shot Weights -->
-  <g filter="url(#shadowEn)">
-    <rect x="435" y="268" width="530" height="78" rx="8" fill="url(#cardGradEn)" stroke="#1e293b" stroke-width="1.2"/>
+  <g filter="url(#shadowZh)">
+    <rect x="435" y="268" width="530" height="78" rx="8" fill="url(#cardGradZh)" stroke="#1e293b" stroke-width="1.2"/>
     <circle cx="460" cy="292" r="12" fill="#475569"/>
     <text x="460" y="292" class="badge-text">3</text>
-    <text x="484" y="290" fill="#94a3b8" class="card-title">Split Shot Calibration (Haulipainot &amp; Tasapainotus)</text>
-    <text x="484" y="311" class="card-desc">Graduated split shots (0.4g–0.8g) pinched 20–25 cm above hook + dropper shot</text>
-    <text x="484" y="330" class="card-desc-sub">Balances float buoyancy perfectly so biting fish feel zero resistance on the inhale.</text>
+    <text x="484" y="290" fill="#94a3b8" class="card-title">梯级开口咬铅配平 (Haulipainot / 咬铅配重)</text>
+    <text x="484" y="311" class="card-desc">距离鱼钩 20–25cm 处夹装 0.4g–0.8g 梯级开口铅粒，最下方加一颗 0.2g 信标铅</text>
+    <text x="484" y="330" class="card-desc-sub">精确抵消浮漂浮力：鲈鱼吸饵无异物阻力不吐钩，微弱轻啄即干脆利落出黑漂。</text>
   </g>
 
   <!-- CARD 4: Hook & Live Bait -->
-  <g filter="url(#shadowEn)">
-    <rect x="435" y="358" width="530" height="78" rx="8" fill="url(#cardGradEn)" stroke="#1e293b" stroke-width="1.2"/>
+  <g filter="url(#shadowZh)">
+    <rect x="435" y="358" width="530" height="78" rx="8" fill="url(#cardGradZh)" stroke="#1e293b" stroke-width="1.2"/>
     <circle cx="460" cy="382" r="12" fill="#e11d48"/>
     <text x="460" y="382" class="badge-text">4</text>
-    <text x="484" y="380" fill="#fb7185" class="card-title">Single Hook &amp; Live Worm (Koukku ja syötti)</text>
-    <text x="484" y="401" class="card-desc">#10–#14 round bend single hook baited with fresh earthworm (Kastemato)</text>
-    <text x="484" y="420" class="card-desc-sub">Thread hook twice through the head collar; leave 1–2 cm lively tail wriggling free.</text>
+    <text x="484" y="380" fill="#fb7185" class="card-title">细条单钩与鲜活红蚯蚓 (Koukku ja mato / 挂饵技巧)</text>
+    <text x="484" y="401" class="card-desc">10–14号细条丸世/伊豆单钩，挂 Motonet/Prisma 冷藏盒装鲜活夜蚯蚓（Kastemato）</text>
+    <text x="484" y="420" class="card-desc-sub">钩尖从蚯蚓头部肉圈穿入穿出两次，务必预留 1–2 厘米鲜活蠕动尾部诱鱼。</text>
   </g>
 
   <!-- CARD 5: September Bottom Tactic (Strike Zone) -->
-  <g filter="url(#shadowEn)">
-    <rect x="435" y="448" width="530" height="84" rx="8" fill="url(#strikeGradEn)" stroke="#059669" stroke-width="1.5"/>
+  <g filter="url(#shadowZh)">
+    <rect x="435" y="448" width="530" height="84" rx="8" fill="url(#strikeGradZh)" stroke="#059669" stroke-width="1.5"/>
     <circle cx="460" cy="473" r="12" fill="#059669"/>
     <text x="460" y="473" class="badge-text">🎯</text>
-    <text x="484" y="471" fill="#34d399" class="card-title">September Strike Rule: Suspend 10–20 cm Off Bottom</text>
-    <text x="484" y="492" class="card-desc">Cooling water (10–14°C) drives Perch &amp; Roach to deep pier bottoms (3–6m).</text>
-    <text x="484" y="511" class="card-desc-sub">Suspending 10–20 cm above seabed prevents weed foul while placing bait right in front of fish!</text>
+    <text x="484" y="471" fill="#34d399" class="card-title">九月底层摄食黄金律：悬垂离底 10–20 厘米 (Pohjataktiikka)</text>
+    <text x="484" y="492" class="card-desc">秋季水温降至 10–14°C，五道黑大拟鲈与拟鲤密集下沉至 3–6 米深码头水底水层。</text>
+    <text x="484" y="511" class="card-desc-sub">钓组悬垂离底 10–20 厘米既能避开水底烂叶淤泥挂底，又正中秋鲈聚群巡游视线！</text>
   </g>
 
 </svg>

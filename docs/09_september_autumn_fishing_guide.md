@@ -64,7 +64,7 @@ You can purchase everything you need for less than €15 at major stores across 
 Below is the anatomy of the traditional Finnish float rig. Study how the line, float, split shots, and worm hook are balanced:
 
       
-![Traditional Onkiminen Float Rig Diagram](../../images/onkiminen_rig_diagram.svg)
+![Traditional Onkiminen Float Rig Diagram](../../images/onkiminen_rig_diagram_en.svg)
 *Figure 9.2: The Onkilaite Float Rig: Monofilament line tied to pole tip with a double slipknot, sliding antenna float, calibrated split shots, and hook baited with live earthworm suspended 10–20 cm above the bottom.*
 
       
@@ -272,7 +272,7 @@ Curated tutorials across Finnish, English, and Chinese instruction covering both
 请严格参考以下芬兰标准传统手竿线组结构图解：
 
       
-![传统手竿浮漂线组全景示意图](../../images/onkiminen_rig_diagram.svg)
+![传统手竿浮漂线组全景示意图](../../images/onkiminen_rig_diagram_zh.svg)
 *图 9.2：Onkilaite 手竿浮漂线组结构：竿尖马蹄活结套接 0.18–0.22mm 尼龙主线，硅胶套管固定细长立漂，梯级咬铅精确配平浮力，单钩挂新鲜活蚯蚓悬垂于水底泥沙上方 10–20 厘米。*
 
       
@@ -445,7 +445,7 @@ Onkiminen perinteisellä vavalla ilman kelaa on **100 % maksuton yleiskalastusoi
 *Kuva 9.1: 10–15 euron onkisetti: 5m teleskooppionkivapa, valmis onkilaite ja matopurkki Motonetista tai Prismasta.*
 
       
-![Onkilaitteen rakenne](../../images/onkiminen_rig_diagram.svg)
+![Onkilaitteen rakenne](../../images/onkiminen_rig_diagram_fi.svg)
 *Kuva 9.2: Onkilaitteen rakenne ja syvyyssäätö 10–20 cm pohjan yläpuolelle.*
 
       
