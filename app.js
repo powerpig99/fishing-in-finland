@@ -198,6 +198,10 @@
     `;
   }
 
+  function stripChapterNum(str) {
+    return (str || '').replace(/^\d+\.\s*/, '');
+  }
+
   function renderTOC(filterText = '') {
     if (!tocList) return;
     tocList.innerHTML = '';
@@ -225,13 +229,13 @@
       const li = document.createElement('li');
       li.className = 'toc-item';
 
+      const t1 = stripChapterNum(ch.title[currentLang] || ch.title.en);
       let titleText = '';
       if (secondaryLang) {
-        const t1 = ch.title[currentLang] || ch.title.en;
-        const t2 = ch.title[secondaryLang] || ch.title.en;
-        titleText = `${ch.num}. ${t1} <span style="font-size: 0.85em; color: var(--muted);">/ ${t2.replace(/^\\d+\\.\\s*/, '')}</span>`;
+        const t2 = stripChapterNum(ch.title[secondaryLang] || ch.title.en);
+        titleText = `${ch.num}. ${t1} <span style="font-size: 0.85em; color: var(--muted);">/ ${t2}</span>`;
       } else {
-        titleText = `${ch.num}. ${ch.title[currentLang] || ch.title.en}`;
+        titleText = `${ch.num}. ${t1}`;
       }
 
       li.innerHTML = `
@@ -275,14 +279,14 @@
       card.className = 'chapter-card';
       card.href = `docs/${ch.num}_${ch.slug}.html`;
 
-      const t1 = ch.title[currentLang] || ch.title.en;
+      const t1 = stripChapterNum(ch.title[currentLang] || ch.title.en);
       const sub1 = ch.subtitle[currentLang] || ch.subtitle.en;
 
       let titleHtml = t1;
       let subHtml = sub1;
 
       if (secondaryLang) {
-        const t2 = ch.title[secondaryLang] || ch.title.en;
+        const t2 = stripChapterNum(ch.title[secondaryLang] || ch.title.en);
         const sub2 = ch.subtitle[secondaryLang] || ch.subtitle.en;
         titleHtml = `<div>${t1}</div><div style="font-size: 0.8em; font-weight: 500; color: var(--muted); margin-top: 0.2rem;">${t2}</div>`;
         subHtml = `<div>${sub1}</div><div style="font-size: 0.9em; margin-top: 0.25rem;">${sub2}</div>`;
